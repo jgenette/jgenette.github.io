@@ -83,13 +83,13 @@ analytics:
 # Site Author
 author:
   name             : "Jérémy Genette"
-  avatar           : "profile.png"
+  avatar           : "p"
   bio              : "PhD student in Linguistics"
   location         :
   employer         :
   pubmed           :
   orcid            : ""
-  googlescholar    : "hhttps://scholar.google.com/citations?user=4PhgZFcAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=4PhgZFcAAAAJ&hl=en"
   email            : "jeremy.genette@uantwerpen.be"
   researchgate     : example: "https://www.researchgate.net/profile/Jeremy-Genette"
   uri              :

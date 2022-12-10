@@ -5,15 +5,12 @@ main:
     
   - title: "Research"
     url: /research/
+    
+  - title: "Talks"
+    url: /talks/
 
   - title: "Teaching"
     url: /teaching/
-
-  - title: "Software"
-    url: /software/
-
-  - title: "Posts"
-    url: /posts/
     
   - title: "CV"
     url: /cv/

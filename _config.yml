@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rob Williams"
+title                    : "Jérémy Genette"
 title_separator          : "-"
-name                     : &name "Rob Williams"
-description              : &description "Postdoc in Political Science"
+name                     : &name "Jérémy Genette"
+description              : &description "PhD student in Linguistics"
 url                      : https://jayrobwilliams.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jayrobwilliams/jayrobwilliams.github.io"
+repository               : "jgenette/jgenette.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,16 +82,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rob Williams"
+  name             : "Jérémy Genette"
   avatar           : "profile.png"
   bio              : "Data Scientist"
   location         :
   employer         :
   pubmed           :
-  orcid            : "http://orcid.org/0000-0001-9259-3883"
-  googlescholar    : "https://scholar.google.com/citations?user=fiaPSmgAAAAJ"
-  email            : "rob.williams@wustl.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  orcid            : ""
+  googlescholar    : "hhttps://scholar.google.com/citations?user=4PhgZFcAAAAJ&hl=en"
+  email            : "jeremy.genette@uantwerpen.be"
+  researchgate     : example: "https://www.researchgate.net/profile/Jeremy-Genette"
   uri              :
   bitbucket        :
   codepen          :

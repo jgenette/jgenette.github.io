@@ -83,9 +83,9 @@ analytics:
 # Site Author
 author:
   name             : "Jérémy Genette"
-  avatar           : "p"
+  avatar           : ""
   bio              : "PhD student in Linguistics"
-  location         : "Antwerp, Belgium :belgium:"
+  location         : "Antwerp, Belgium 🇧🇪"
   employer         :
   pubmed           :
   orcid            : ""
@@ -106,8 +106,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "jayrobwilliams"
-  mastodon         : "https://www.linkedin.com/in/jérémy-genette-ʒeʀemi-ʒənɛt-843185253/"
+  linkedin         : "https://www.linkedin.com/in/jérémy-genette-ʒeʀemi-ʒənɛt-843185253/"
+  mastodon         :
   pinterest        :
   soundcloud       :
   stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"

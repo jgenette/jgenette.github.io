@@ -1,5 +1,5 @@
 ---
-title: "Social media data"
+title: "Dialectology"
 layout: single-portfolio
 excerpt: "<img src='/images/research/ternary.png' alt=''>"
 collection: research

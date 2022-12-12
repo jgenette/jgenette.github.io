@@ -1,5 +1,5 @@
 ---
-title: "Conflict event data"
+title: "Intrinsic Vowel Pitch"
 layout: single-portfolio
 excerpt: "<img src='/images/research/map.png' alt=''>"
 collection: research

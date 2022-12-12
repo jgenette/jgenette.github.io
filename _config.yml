@@ -83,8 +83,9 @@ analytics:
 # Site Author
 author:
   name             : "Jérémy Genette"
-  avatar           : "[ʒeʀemi ʒənɛt]"
+  avatar           : 
   bio              : "PhD student in Linguistics"
+  pronunciation    : "[ʒeʀemi ʒənɛt]"
   location         : "Antwerp, Belgium 🇧🇪"
   employer         :
   pubmed           :

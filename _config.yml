@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jérémy Genette"
 title_separator          : "-"
 name                     : &name "Jérémy Genette"
-description              : &description "&#x5B ʒeʀemi ʒənɛt &#x5D  PhD student in Linguistics"
+description              : &description "&#x5B ʒeʀemi ʒənɛt PhD student in Linguistics"
 url                      : https://jgenette.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jgenette/jgenette.github.io"
@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Jérémy Genette"
-  avatar           : ""
+  avatar           : "[ʒeʀemi ʒənɛt]"
   bio              : "PhD student in Linguistics"
   location         : "Antwerp, Belgium 🇧🇪"
   employer         :

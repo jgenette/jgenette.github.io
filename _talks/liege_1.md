@@ -2,7 +2,7 @@
 title: "Where to measure within vowels? Comparison and evaluation of acoustic techniques for the selection of measurement points"
 collection: talks
 type: "Talk"
-permalink: /talks/liege_1
+permalink: /talks/liege_1.md
 venue: "Linguists’ Day 2022 of the Linguistic Society of Belgium"
 date: 2022-10-21
 location: 'Liège, Belgium 🇧🇪'

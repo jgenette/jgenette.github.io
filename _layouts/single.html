@@ -48,8 +48,10 @@ layout: default
           <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-             
+        {% if page.citation  %}
+          <p>Abstract: {{ page.excerpt }} </p>
+        {% endif %} 
+          
         {% if page.citation and page.paperurl %}
           <p>Recommended citation: {{ page.citation }} 
         {% elsif page.citation %}

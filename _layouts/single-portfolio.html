@@ -36,7 +36,10 @@ layout: default
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% endif %}
-
+        
+        {% if page.citation  %}
+          <p>Abstract: {{ page.excerpt }} </p>
+        {% endif %}
              
         {% if page.citation  %}
           <p>Recommended citation: {{ page.citation }} </p>

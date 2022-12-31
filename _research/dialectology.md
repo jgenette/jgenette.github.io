@@ -8,13 +8,7 @@ header:
   og_image: "research/ternary.png"
 ---
 
-In these projects I leverage social media data to study the early stages of
-radicalization and participation in extremist movements. In one, I use geocoded
-videos uploads to explore the relationship between American military fatalities
-overseas and far-right mobilization. The other applies computer vision
-techniques to recruitment videos from groups within the Salafi Jihadi movement
-to study how different groups within a broader clandestine movement use
-rhetorical strategies to communicate to a broad pool of potential supporters.
+Most of my work deals with the description/documentation of the sound systems of the Extreme Southern Italian Italo-Romance dialects, as well as that Walloon varieties in Belgium. I am also interested in the (still unresolved) debate surrounding the origins of Calabrian Greek and how that debate is perceived by the local population.
 
 ## Working paper
 

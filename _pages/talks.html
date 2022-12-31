@@ -11,6 +11,20 @@ author_profile: true
 
 {% endif %}
 
+<h2>Past talks</h2>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'past' %}
+      {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Upcoming talks</h2>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'upcoming' %}
+      {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}

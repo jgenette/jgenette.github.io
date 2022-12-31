@@ -6,6 +6,7 @@ permalink: /talks/vigo_1
 venue: "9th International Conference on Experimental Phonetics"
 date: 2023-06-21
 location: 'Vigo, Spain 🇪🇸'
+pubtype:"upcoming"
 ---
 
 [More information here](https://cife2023.webs.uvigo.es)

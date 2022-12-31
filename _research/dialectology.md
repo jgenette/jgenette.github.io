@@ -1,7 +1,7 @@
 ---
 title: "Dialectology"
 layout: single-portfolio
-excerpt: "<img src='/images/research/ternary.png' alt=''>"
+excerpt: "<img src='/images/research/dialectology.png' alt=''>"
 collection: research
 order_number: 40
 header: 

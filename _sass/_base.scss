@@ -35,7 +35,7 @@ h1 {
 
 h2 {
   font-size: $type-size-4;
-   text-decoration: underline;
+   border-bottom: 1px solid $text-color;
 }
 
 h3 {

@@ -42,10 +42,11 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  text-decoration: none;
 
   a + a {
     opacity: 0.5;
-     text-decoration: none;
+    text-decoration: none;
   }
 }
 

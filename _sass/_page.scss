@@ -56,7 +56,7 @@
     padding-bottom: 0.5em;
     border-bottom: none;
     text-decoration: none; 
-    color: $info-color;
+    color: $link-color 
   }
 
   p, li, dl {
@@ -79,12 +79,12 @@
   a {
     text-decoration: bold;
      text-decoration: none;
-      color: $info-color;
+      color: $link-color 
 
     &:hover {
       text-decoration: bold;
        text-decoration: none;
-        color: $info-color;
+        color: $link-color 
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -161,7 +161,7 @@
     .page__title {
       font-size: $type-size-2;
        text-decoration: none;
-        color: $info-color;
+        color: $link-color;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
@@ -248,7 +248,7 @@
   a {
     color: inherit;
      text-decoration: none;
-      color: $info-color;
+     $link-color 
   }
 }
 

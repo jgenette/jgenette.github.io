@@ -3,7 +3,7 @@ permalink: /teaching/
 title: "Teaching"
 ---
 
-# Université Libre de Bruxelles, Belgium
+### Université Libre de Bruxelles, Belgium
 - Creation of online English linguistics exercises/tests (September - October 2021)
     - GERM-B100: **Linguistique synchronique de l’anglais I**
     - GERM-B200: **Linguistique synchronique de l’anglais II**

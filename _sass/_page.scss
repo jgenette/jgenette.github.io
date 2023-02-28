@@ -37,6 +37,7 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+  color: $link-color; 
   text-decoration: none;
 
 
@@ -56,7 +57,7 @@
     padding-bottom: 0.5em;
     border-bottom: none;
     text-decoration: none; 
-    color: $link-color; 
+
   }
 
   p, li, dl {

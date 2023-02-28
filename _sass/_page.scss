@@ -55,6 +55,7 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: none;
+    text-decoration: none; 
   }
 
   p, li, dl {
@@ -76,9 +77,11 @@
 
   a {
     text-decoration: bold;
+     text-decoration: none;
 
     &:hover {
       text-decoration: bold;
+       text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -154,6 +157,7 @@
 
     .page__title {
       font-size: $type-size-2;
+       text-decoration: none;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
@@ -239,6 +243,7 @@
 
   a {
     color: inherit;
+     text-decoration: none;
   }
 }
 
@@ -246,6 +251,7 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+   text-decoration: none;
 }
 
 
@@ -271,6 +277,7 @@
   text-decoration: none;
   border: 1px solid $light-gray;
   border-radius: $border-radius;
+   
 
   &:hover {
     text-decoration: none;

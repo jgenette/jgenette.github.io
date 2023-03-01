@@ -17,6 +17,7 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+     color: $light-gray;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -28,7 +29,7 @@
 
     a {
       text-decoration: none;
-       color: $light-gray;
+
     }
   }
 }
@@ -48,7 +49,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
+  color: $light-gray;
   &--lg {
     padding-right: 2em;
     font-weight: 700;

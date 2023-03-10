@@ -35,13 +35,12 @@
 }
 
 .masthead__menu {
-  color: red;
+  color: $light-gray;
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
-    color: $light-gray;
   }
 }
 

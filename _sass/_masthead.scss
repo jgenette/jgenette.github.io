@@ -10,6 +10,7 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   background: $lighter-gray;
+  border-bottom: 1px solid $light-gray;
   z-index: 20;
 
   &__inner-wrap {

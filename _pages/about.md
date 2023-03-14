@@ -9,5 +9,45 @@ redirect_from:
 ---
 Welcome! I am a PhD student at the CLiPS research center under the supervision of Prof Steven Gillis and Prof Jo Verhoeven. Currently, I am working on the acoustic characteristics of babbles and early word production in the speech of typically developing children and children with hearing impairment. My research approach is mainly quantitative and inspired by laboratory phonology. Besides the phonetics of child speech, I am also working on methodological questions related to speech sciences and on (Italian) dialectology.
 
-| a | b |
-|---|---|
+<style>
+.column {
+    float: left;
+    padding: 10px;
+    width: 45%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+
+<div class="row">
+
+<div class="column">
+<h3>Interests</h3>
+<ul class="ul-interests">
+<li>Phonetics</li>
+<li>Laboratory Phonology</li>
+<li>Acoustics</li>
+<li>Language Acquisition</li>
+</ul>
+</div>
+
+<div class="column">
+<h3>Education</h3>
+<ul class="ul-edu fa-ul">
+<li>
+<i class="fa fa-mortar-board"></i> MA in Linguistics, 2021, Université Libre de Bruxelles
+</li>
+
+<li>
+<i class="fa fa-mortar-board"></i> BA in Languages and Letters, 2019, Université Libre de Bruxelles
+</li>
+
+</ul>
+</div>
+
+</div>

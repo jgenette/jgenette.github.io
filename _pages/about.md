@@ -12,7 +12,7 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 <style>
 .column {
     float: left;
-    padding: 10px;
+    padding: 0 px;
     width: 45%;
 }
 
@@ -41,15 +41,15 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 <ul class="ul-edu fa-ul">
 
 <li>
-<i class="fas fa-fw fa-graduation-cap"></i> PhD in Linguistics, 2021-present, Universiteti Antwerpen
+<i class="fas fa-fw fa-graduation-cap"></i> PhD in Linguistics, 2021-present <br> Universiteit Antwerpen
 </li>
   
 <li>
-<i class="fas fa-fw fa-graduation-cap"></i> MA in Linguistics, 2019-2021, Université Libre de Bruxelles
+<i class="fas fa-fw fa-graduation-cap"></i> MA in Linguistics, 2019-2021 <br> Université Libre de Bruxelles
 </li>
 
 <li>
-<i class="fas fa-fw fa-graduation-cap"></i> BA in Languages and Letters, 2016-2019, Université Libre de Bruxelles
+<i class="fas fa-fw fa-graduation-cap"></i> BA in Languages and Letters, 2016-2019 <br> Université Libre de Bruxelles
 </li>
 
 </ul>

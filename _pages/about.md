@@ -39,12 +39,17 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 <div class="column">
 <h3>Education</h3>
 <ul class="ul-edu fa-ul">
+
 <li>
-<i class="fa fa-mortar-board"></i> MA in Linguistics, 2021, Université Libre de Bruxelles
+<i class="fas fa-fw fa-graduation-cap"></i> PhD in Linguistics, 2021-present, Universiteti Antwerpen
+</li>
+  
+<li>
+<i class="fas fa-fw fa-graduation-cap"></i> MA in Linguistics, 2019-2021, Université Libre de Bruxelles
 </li>
 
 <li>
-<i class="fa fa-mortar-board"></i> BA in Languages and Letters, 2019, Université Libre de Bruxelles
+<i class="fas fa-fw fa-graduation-cap"></i> BA in Languages and Letters, 2016-2019, Université Libre de Bruxelles
 </li>
 
 </ul>

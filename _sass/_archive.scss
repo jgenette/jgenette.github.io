@@ -79,6 +79,18 @@
     width: 100%;
   }
 }
+.archive__item-teaser {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-block-start: 2em;
+  border-radius: $border-radius;
+  overflow: hidden;
+  img {
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+  }
+}  
 
 /*
    List view

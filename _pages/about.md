@@ -13,7 +13,7 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 .column {
     float: left;
     padding: 0 px;
-    width: 45%;
+    width: 50%;
 }
 
 /* Clear floats after the columns */

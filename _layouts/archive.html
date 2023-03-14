@@ -16,6 +16,11 @@ layout: default
   {% include sidebar.html %}
 
   <div class="archive">
+              {% if post.teaser %}
+              {% capture teaser %}{{ post.teaser }}{% endcapture %}
+            {% else %}
+                {% assign teaser = site.teaser %}
+          {% endif %}
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}

@@ -12,4 +12,4 @@ citation: '<b>Genette</b>, <b>J.</b> (in press). The interplay between linguisti
 pubtype: 'chapter'
 ---
 
-<img align="left" width="300" height="110" src="./../research/dialectology.png" style="padding-right:20px; padding-top:40px"/>
+<img align="left" width="300" height="110" src="./images/research/dialectology.png" style="padding-right:20px; padding-top:40px"/>

@@ -6,6 +6,10 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
+{% if post.header.teaser %}
+<img align="left" width="300" height="110" src="post.teaser" style="padding-right:20px; padding-top:20px"/>
+{% endif %}
+
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}

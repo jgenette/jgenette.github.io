@@ -11,6 +11,6 @@ excerpt:  "En el capítulo 6 se encuentra otro estudio enfocado a la investigaci
 citation: '<b>Genette</b>, <b>J.</b> (in press). The interplay between linguistic hypotheses and self-identification needs: The case of Calabrian Greek. In A. Ariño-Bizarro, N. López-Cortés, D. Pascual (eds.): <i>En torno al lenguaje: nuevas aportaciones al estudio lingüístico</i>.'
 pubtype: 'chapter'
 header:
-  teaser: "<img src='/images/research/dialectology.png' alt=''>"
+  teaser: "/images/research/dialectology.png"
 ---
 

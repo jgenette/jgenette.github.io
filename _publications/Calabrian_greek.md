@@ -1,5 +1,5 @@
 ---
-title: "The interplay between linguistic hypotheses and self-identification needs: The case of Calabrian Greek"
+title:
 collection: publications
 permalink: /publication/Calabrian_greek
 date: 2019-11-05

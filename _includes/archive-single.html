@@ -10,11 +10,13 @@
 <img align="left" width="200" height="200" src="{{ post.header.teaser }}" style="padding-right:20px; padding-top:20px" alt="">
 {% endif %}
 
+<!--
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+-->
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">

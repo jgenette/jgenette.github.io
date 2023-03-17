@@ -1,5 +1,5 @@
 ---
-title:
+
 collection: publications
 permalink: /publication/Calabrian_greek
 date: 2019-11-05

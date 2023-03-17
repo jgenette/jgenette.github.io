@@ -7,7 +7,7 @@
 {% endif %}
 
 {% if post.header.teaser %}
-<img align="left" width="200" height="175" src="{{ post.header.teaser }}" style="padding-right:10px; padding-top:0px;  border-radius: 15px 15px 15px 15px !important;" alt="">
+<img align="left" width="200" height="175" src="{{ post.header.teaser }}" style="padding-right:0px; padding-top:0px;  border-radius: 15px 15px 15px 15px !important;" alt="">
 {% endif %}
 
 <!--
@@ -49,6 +49,7 @@
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' %}
       <p>
+        padding-left: 20px;
       {% if post.citation %}
         {{ post.citation }}
       {% endif %}

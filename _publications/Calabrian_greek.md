@@ -2,7 +2,7 @@
 
 collection: publications
 permalink: /publication/Calabrian_greek
-date: 2023-27-03
+date: 2023-03-27
 venue: 'En torno al lenguaje: nuevas aportaciones al estudio lingüístico'
 paperurl: ''
 link: 'https://puz.unizar.es/2811-en-torno-al-lenguaje-nuevas-aproximaciones-al-estudio-lingueistico.html'

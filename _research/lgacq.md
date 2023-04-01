@@ -1,5 +1,5 @@
 ---
-title: "Language acquisition and hearing impairment"
+title: "Child speech"
 layout: single-portfolio
 excerpt: "<img src='/images/research/hearing.png' alt=''>"
 collection: research

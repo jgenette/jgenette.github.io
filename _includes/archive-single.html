@@ -33,7 +33,8 @@
           {% endif %}
           alt="">
       </div>
-    {% endif %}<!--
+    {% endif %}
+    
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> 
@@ -42,7 +43,7 @@
       {% endif %}
     </h3>
 
--->    
+  
     {% if post.read_time %}
     {% elsif post.read_time and post.collection == 'posts' %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>

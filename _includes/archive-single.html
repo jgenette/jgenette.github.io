@@ -1,5 +1,5 @@
 {% include base_path %}
-
+<!--
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -12,7 +12,7 @@
     margin-left: 5px;
     border-radius: 15px 15px 15px 15px !important;" alt="">
 {% endif %}
-
+-->
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}

@@ -17,7 +17,7 @@
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  background-color: $primary-color;
+  background-color: #D0AF6B !important;
   border: 0 !important;
   border-radius: $border-radius;
   cursor: pointer;
@@ -51,7 +51,7 @@
   &--inverse {
     color: $gray !important;
     border: 1px solid $light-gray !important; /* override*/
-    background-color: #fff;
+    background-color: #D0AF6B !important;
 
     &:hover {
       color: #fff !important;
@@ -164,7 +164,7 @@
     padding: 0.125em 0.25em;
     color: $light-gray;
     text-align: center;
-    background-color: $lighter-gray ;
+    background-color: #D0AF6B !important;
     text-decoration: none !important;
     border: 1px solid;
     border-color: $light-gray;

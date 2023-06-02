@@ -19,6 +19,12 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
+<h2>Conference papers</h2>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'conf paper' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>

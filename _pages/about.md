@@ -28,7 +28,7 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 
 <div class="column">
 <h3>Interests</h3>
-<ul class="ul-interests">
+<ul style="list-style-type: none;">
 <li>Phonetics</li>
 <li>Laboratory Phonology</li>
 <li>Acoustics</li>

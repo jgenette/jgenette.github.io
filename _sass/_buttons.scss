@@ -171,8 +171,9 @@
     cursor: pointer;
 
     &:hover {
-      color: #854D27;
+      color: #fff;
       background-color: $link-color !important;
+      text-decoration: bold;
     }
   }
   

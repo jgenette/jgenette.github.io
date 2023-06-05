@@ -9,5 +9,5 @@ location: 'Prague, Czech Republic 🇨🇿'
 pubtype: 'upcoming'
 ---
 
-[More information here](https://www.icphs2023.org)
+[More information here](https://www.icphs2023.org){: .btn--research}
 

@@ -162,16 +162,16 @@
     display: inline-block;
     margin-bottom: 0.25em;
     padding: 0.125em 0.25em;
-    color: $link-color;
+    color: #854D27;
     text-align: center;
     text-decoration: none !important;
     border: 1px solid;
-    border-color: $link-color;
+    border-color: #854D27;
     border-radius: $border-radius;
     cursor: pointer;
 
     &:hover {
-      color: #fff;
+      color: #854D27;
       background-color: $link-color !important;
     }
   }

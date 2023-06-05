@@ -74,11 +74,13 @@
       <!-- citation and icon code -->
 
       {% if post.link %}
-        <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" style="color: #D7AE5F;" aria-hidden="true"></i></a>
+  <a href="{{ post.link }}">
+    <i class="fas fa-fw fa-file-pdf zoom" style="color: #854D27;" aria-hidden="true" onmouseover="this.style.color='#D7AE5F';" onmouseout="this.style.color='#854D27';"></i>
+  </a>
       {% endif %}
       {% if post.paperurl %}
   <a href="{{ post.paperurl }}">
-    <i class="fas fa-fw fa-file-pdf zoom" style="color: #D7AE5F;" aria-hidden="true" onmouseover="this.style.color='#FF0000';" onmouseout="this.style.color='#D7AE5F';"></i>
+    <i class="fas fa-fw fa-file-pdf zoom" style="color: #854D27;" aria-hidden="true" onmouseover="this.style.color='#D7AE5F';" onmouseout="this.style.color='#854D27';"></i>
   </a>
       {% endif %}
       {% if post.code %}

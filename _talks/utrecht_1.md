@@ -9,5 +9,5 @@ location: 'Utrecht, The Netherlands 🇳🇱'
 pubtype: 'past'
 ---
 
-[More information here](https://www.nvfw.org/content/dag-van-de-fonetiek-2022)
+[More information here](https://www.nvfw.org/content/dag-van-de-fonetiek-2022){: .btn--research}
 

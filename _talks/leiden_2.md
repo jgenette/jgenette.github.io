@@ -9,5 +9,5 @@ location: 'Leiden, The Netherlands 🇳🇱'
 pubtype: 'past'
 ---
 
-[More information here](https://conference.studieverenigingtwist.nl/2021/student-speakers)
+[More information here](https://conference.studieverenigingtwist.nl/2021/student-speakers){: .btn--research}
 

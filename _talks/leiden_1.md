@@ -9,4 +9,4 @@ location: 'Leiden, The Netherlands 🇳🇱 (cancelled due to COVID-19)'
 pubtype: 'past'
 ---
 
-[More information here](https://conference.studieverenigingtwist.nl/2020/speakers/saturday)
+[More information here](https://conference.studieverenigingtwist.nl/2020/speakers/saturday){: .btn--research}

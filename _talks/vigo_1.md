@@ -9,4 +9,4 @@ location: 'Vigo, Spain 🇪🇸'
 pubtype: 'upcoming'
 ---
 
-[More information here](https://cife2023.webs.uvigo.es)
+[More information here](https://cife2023.webs.uvigo.es){: .btn--research}

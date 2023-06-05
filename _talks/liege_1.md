@@ -8,5 +8,5 @@ date: 2022-10-21
 location: 'Liège, Belgium 🇧🇪'
 pubtype: 'past'
 ---
-Best Paper Presentation Award for doctoral students 🏆
-[More information here](https://sites.uclouvain.be/bkl-cbl/en/congress/linguists-day/linguists-day-2022/)
+Best Paper Presentation Award for doctoral students 🏆 <br>
+[More information here](https://sites.uclouvain.be/bkl-cbl/en/congress/linguists-day/linguists-day-2022/){: .btn--research}

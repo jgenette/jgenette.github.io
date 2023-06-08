@@ -93,6 +93,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=4PhgZFcAAAAJ&hl=en"
   email            : "jeremy.genette@uantwerpen.be"
   researchgate     : "https://www.researchgate.net/profile/Jeremy-Genette"
+  academia         : "https://uantwerpen.academia.edu/JérémyGenette" 
   uri              :
   bitbucket        :
   codepen          :
@@ -100,7 +101,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/jgenette"
   gitlab           :
   google_plus      :
   keybase          :

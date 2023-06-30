@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/antwerpen_1
 venue: "Linguists’ Day 2023 of the Linguistic Society of Belgium"
-date: 2022-10-13
+date: 2023-10-13
 location: 'Antwerpen, Belgium 🇧🇪'
 pubtype: 'upcoming'
 ---

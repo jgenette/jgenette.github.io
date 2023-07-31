@@ -9,4 +9,4 @@ location: 'Nijmegen, The Netherlands 🇳🇱'
 pubtype: 'upcoming'
 ---
 
-[More information here][(https://www.mpi.nl/events/many-paths-language-mpal-2023)https://www.mpi.nl/events/many-paths-language-mpal-2023)]{: .btn--research}
+[More information here](https://www.mpi.nl/events/many-paths-language-mpal-2023)https://www.mpi.nl/events/many-paths-language-mpal-2023){: .btn--research}

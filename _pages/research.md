@@ -10,7 +10,7 @@ header:
 Currently, I am working on the acoustic characteristics of babbles and early word production in the speech of typically developing children and children with hearing impairment. My research approach is mainly quantitative and inspired by laboratory phonology. Besides the phonetics of child speech, I am also working on methodological questions related to speech sciences and on (Italian) dialectology.
 
 
-[//]: <>(<nbsp>
+{% comment %} <nbsp>
 
 {% include base_path %}
 
@@ -19,3 +19,4 @@ Currently, I am working on the acoustic characteristics of babbles and early wor
 {% for post in ordered_pages %}
   {% include archive-single.html type="grid" %}
 {% endfor %})
+{% endcomment %}

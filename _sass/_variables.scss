@@ -57,8 +57,9 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
   
-$background-color           : linear-gradient(90deg, rgba(125, 80, 46, 1) 0%, rgba(246, 241, 224, 0.35) 35%, rgba(246, 241, 224, 0.35) 68%, rgba(246, 241, 224, 1) 100%);
+//$background-color           : linear-gradient(90deg, rgba(125, 80, 46, 1) 0%, rgba(246, 241, 224, 0.35) 35%, rgba(246, 241, 224, 0.35) 68%, rgba(246, 241, 224, 1) 100%);
 
+$background: linear-gradient(90deg, rgba(125, 80, 46, 1) 0%, rgba(246, 241, 224, 0.35) 35%, rgba(246, 241, 224, 0.35) 68%, rgba(246, 241, 224, 1) 100%);
 // $background-color           : #F6F1E0;
 
 

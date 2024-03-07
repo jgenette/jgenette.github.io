@@ -26,6 +26,13 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
+<h2>Data</h2>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'data' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}

@@ -309,6 +309,7 @@
 }
 
 
+
 /*
    Navigation list
    ========================================================================== */
@@ -326,7 +327,7 @@
     color: inherit;
 
     &:hover {
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 
@@ -336,7 +337,7 @@
     padding-right: 0.5em;
     color: #fff;
     font-weight: bold;
-    background: $lighter-gray;
+    background: $primary-color;
     border-radius: $border-radius;
 
     &:hover {

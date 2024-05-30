@@ -5,6 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
+<aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+  <nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'align-justify' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
+    {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+  </nav>
+</aside>
+
 <h2>Chapter in edited books</h2>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'chapter' %}

@@ -5,11 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-<aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-  <nav class="toc">
-    <header><h2 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'align-justify' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h2></header>
-    {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
-  </nav>
+<aside class="sidebar__right">
+<nav class="toc" markdown="1">
+<header><h4 class="nav__title"><i class="fas fa-{{ include.icon | default: 'file-alt' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
+*  Auto generated table of contents
+{:toc .toc__menu}
+</nav>
 </aside>
 
 <h2>Chapter in edited books</h2>

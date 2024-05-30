@@ -18,3 +18,16 @@ title: "Teaching"
     - LING-B100: **Linguistique générale: concepts et méthodes** 
     - Phonetics, Phonology, Morphology and Syntax.
     - Undergraduate level (BA 1 and 2)
+
+- **LING-B100: Linguistique générale: concepts et méthodes**
+    - Student-Assistant (Falls 2019 and 2020)
+    - Phonetics, Phonology, Morphology and Syntax
+    - Undergraduate level (BA 1 and 2)
+    - Université Libre de Bruxelles, Belgium 🇧🇪
+
+- **LING-B200: Linguistique générale: questions théoriques**
+    - Student-Assistant (Falls 2019 and 2020)
+    - Phonetics, Phonology, Morphology and Syntax
+    - Undergraduate level (BA 2 and 3)
+    - Université Libre de Bruxelles, Belgium 🇧🇪
+  

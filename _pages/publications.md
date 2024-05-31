@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div class="sidebar sticky" style="width: 15.2542372881%; float: left; margin-left: 1.6949152542%; opacity: 1;">
+<div class="sidebar sticky" style="width: 15.2542372881%; float: left !important; margin-left: 1.6949152542% !important; opacity: 1;">
   <nav class="toc">
     <header>
       <h2 class="nav__title">

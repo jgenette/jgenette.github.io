@@ -5,7 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div class="sidebar sticky" style="width: 15.2542372881%; float: right !important; margin-left: 1.6949152542% !important; opacity: 1;">
+
+
+
+<h2>Chapter in edited books</h2>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'chapter' %}
+      {% include archive-single.html %}
+      <div class="sidebar sticky" style="width: 15.2542372881%; float: right !important; margin-left: 1.6949152542% !important; opacity: 1;">
   <nav class="toc">
     <header>
       <h2 class="nav__title">
@@ -16,12 +23,6 @@ author_profile: true
     {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
   </nav>
 </div>
-
-
-<h2>Chapter in edited books</h2>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'chapter' %}
-      {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 

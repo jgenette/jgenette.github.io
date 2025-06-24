@@ -11,5 +11,9 @@ header:
 ## Défense de thèse - Audio
 
 
+<audio controls>
+  <source src="/files/test.wav" type="audio/mpeg">
+</audio>
+
 
 

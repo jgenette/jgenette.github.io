@@ -86,8 +86,8 @@ author:
   avatar           : "profile.png"
   bio              : "PhD student in Linguistics"
   pronunciation    : "[ʒeʀemi ʒənɛt]"
-  location         : "Antwerp, Belgium 🇧🇪"
-  employer         : "FWO, University of Antwerp"
+  location         : "University of Antwerp, Belgium 🇧🇪"
+  employer         : #"FWO, University of Antwerp"
   pubmed           :
   orcid            : "https://orcid.org/0000-0002-1782-6656"
   googlescholar    : "https://scholar.google.com/citations?user=4PhgZFcAAAAJ&hl=en"

@@ -19,5 +19,6 @@ Currently, I am working on the acoustic characteristics of babbles and early wor
 
 {% for post in ordered_pages %}
   {% include archive-single.html type="grid" %}
-{% endfor %})
+  
+{% endfor %}
 

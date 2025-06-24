@@ -1,5 +1,5 @@
 ---
-title: "Dialectology"
+title: "Romance Dialectology"
 layout: single-portfolio
 excerpt: "<img src='/images/research/dialectology.png' alt=''>"
 collection: research

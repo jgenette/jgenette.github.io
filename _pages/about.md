@@ -28,12 +28,12 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 
 <div class="column">
 <h3>Interests</h3>
-<ul style="list-style-type: none;">
-<li>Phonetics</li>
-<li>Laboratory Phonology</li>
-<li>Acoustics</li>
-<li>Language Acquisition</li>
-</ul>
+    <ul style="list-style-type: none;">
+      <li><i class="fas fa-wave-square fa-fw"></i> Phonetics</li>
+      <li><i class="fas fa-microscope fa-fw"></i> Laboratory Phonology</li>
+      <li><i class="fas fa-chart-line fa-fw"></i> Acoustics</li>
+      <li><i class="fas fa-child fa-fw"></i> Language Acquisition</li>
+    </ul>
 </div>
 
 <div class="column">

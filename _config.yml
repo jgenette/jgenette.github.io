@@ -87,13 +87,13 @@ author:
   bio              : "PhD student in Linguistics"
   pronunciation    : "[ʒeʀemi ʒənɛt]"
   location         : "Antwerp, Belgium 🇧🇪"
-  employer         : 
+  employer         : "FWO, University of Antwerp"
   pubmed           :
   orcid            : "https://orcid.org/0000-0002-1782-6656"
   googlescholar    : "https://scholar.google.com/citations?user=4PhgZFcAAAAJ&hl=en"
   email            : "jeremy.genette@uantwerpen.be"
   researchgate     : "https://www.researchgate.net/profile/Jeremy-Genette"
-  academia         : "https://uantwerpen.academia.edu/JérémyGenette" 
+  academia         :
   uri              :
   bitbucket        :
   codepen          :
@@ -115,7 +115,7 @@ author:
   stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/JeremyGenette" 
+  twitter          : #"https://twitter.com/JeremyGenette" 
   vine             :
   weibo            :
   xing             :

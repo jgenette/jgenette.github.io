@@ -8,6 +8,8 @@ header:
   og_image: "research/kaft.png"
 ---
 
+
+For the english translation 🇬🇧 clicke here (https://github.com/jgenette/jgenette.github.io/edit/master/_research/archive/Defense_translation_en.md)
 ## Défense de thèse - Traduction française
 
 ### Diapositive 1 

@@ -3,6 +3,7 @@ title: "Défense de thèse - Traduction française"
 layout: single-portfolio
 excerpt: "<img src='/images/research/kaft.png' alt=''>"
 collection: research
+permalink: /research/defense-fr/
 order_number: 1
 header: 
   og_image: "research/kaft.png"

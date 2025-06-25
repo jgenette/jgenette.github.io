@@ -49,7 +49,6 @@
   }
 }
 
-
 .sidebar__right {
   margin-bottom: 1em;
   
@@ -58,14 +57,8 @@
     float: right !important;
     top: 0;
     right: 0;
-    // OLD
-    // width: $right-sidebar-width-narrow;
-    // margin-right: -1 * $right-sidebar-width-narrow;
-
-    // NEW (change to desired width)
-    width: 20%;  // or 300px, depending on your layout
-    margin-right: -20%;  // negative of the width above
-
+    width: $right-sidebar-width-narrow;
+    margin-right: -1 * $right-sidebar-width-narrow;
     padding-left: 1em;
     padding-top: 1em !important;
     z-index: 10;
@@ -238,7 +231,7 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: bold;
+      text-decoration: underline;
     }
   }
 }

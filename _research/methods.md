@@ -8,10 +8,4 @@ header:
   og_image: "methodology/.png"
 ---
 
-
-
-## Article
-
-
-## Manuscript in preparation
-
+🚧 Page under construction.

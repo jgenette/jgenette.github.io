@@ -6,19 +6,7 @@ author_profile: true
 toc: true
 ---
 
-{% if page.toc %}
-  <aside class="sidebar__right sticky">
-    <nav class="toc">
-      <header>
-        <h4 class="nav__title">
-          <i class="fas fa-{{ page.toc_icon | default: 'align-justify' }}"></i>
-          {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}
-        </h4>
-      </header>
-      {% include toc.html html=content sanitize=true class="toc__menu" %}
-    </nav>
-  </aside>
-{% endif %}
+<section class="page__content" itemprop="text">
 
 <h2>Chapter in Edited Books</h2>
 {% for post in site.publications reversed %}

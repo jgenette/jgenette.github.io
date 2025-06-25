@@ -8,4 +8,4 @@ header:
   og_image: "research/dialectology.png"
 ---
 
-Most of my work deals with the description/documentation of the sound systems of the Extreme Southern Italian Italo-Romance dialects, as well as that Walloon varieties in Belgium. I am also interested in the (still unresolved) debate surrounding the origins of Calabrian Greek and how that debate is perceived by the local population.
+Most of my work focuses on the description and documentation of the sound systems of Walloon varieties spoken in Belgium. I am also interested in the still unresolved debate surrounding the origins of Calabrian Greek and in how this debate is perceived by the local population.

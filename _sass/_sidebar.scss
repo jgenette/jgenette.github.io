@@ -58,8 +58,14 @@
     float: right !important;
     top: 0;
     right: 0;
-    width: $right-sidebar-width-narrow;
-    margin-right: -1 * $right-sidebar-width-narrow;
+    // OLD
+    // width: $right-sidebar-width-narrow;
+    // margin-right: -1 * $right-sidebar-width-narrow;
+
+    // NEW (change to desired width)
+    width: 20%;  // or 300px, depending on your layout
+    margin-right: -20%;  // negative of the width above
+
     padding-left: 1em;
     padding-top: 1em !important;
     z-index: 10;

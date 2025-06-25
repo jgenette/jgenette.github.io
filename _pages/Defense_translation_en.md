@@ -2,6 +2,7 @@
 title: "PhD Defence - English Translation"
 layout: single-portfolio
 excerpt: "<img src='/images/research/kaft.png' alt=''>"
+permalink: /research/defense-en/
 collection: research
 order_number: 1
 header: 

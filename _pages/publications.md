@@ -36,8 +36,5 @@ toc: true
   {% endif %}
 {% endfor %}
 
-{% if author.googlescholar %}
-  <p>You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a></u>.</p>
-{% endif %}
+</section>
 
-{% include base_path %}

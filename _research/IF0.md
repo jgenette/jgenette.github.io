@@ -18,27 +18,4 @@ Scientists do not agree on which explanation is correct, but they do agree on th
 
 This work is supported by the Research Foundation in Flanders (FWO) [grant G004321N].
 
-## Article
 
-zrgeaqfqsdf
-
-> QDFQDSFQSDFSQC
-
-[Article](/files/.pdf){: .btn--research} [Preprint](/files/.pdf){: .btn--research} [Supplemental Information](/files/.pdf){: .btn--research} [Replication Archive](/files/.pdf){: .btn--research}
-
-## Working papers
-
-
-
-> wxcsqcdsCSCSD
-
-[Working Paper](https://osf.io/ta96y/){: .btn--research}
-
-
-
-> vsdvQFVQ<XV<SDVsdv
-
-[Working Paper](/files/.pdf){: .btn--research}
-
-
-[Working Paper](/files/.pdf){: .btn--research}

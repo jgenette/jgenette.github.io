@@ -9,7 +9,7 @@ header:
 ---
 
 
-**For the English translation** 🇬🇧 [click here](https://github.com/jgenette/jgenette.github.io/edit/master/_research/archive/Defense_translation_en.md)
+**For the English translation** 🇬🇧 [click here](https://github.com/jgenette/jgenette.github.io/edit/master/_archive/Defense_translation_en.md)
 
 
 ## Défense de thèse - Traduction française

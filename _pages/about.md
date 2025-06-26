@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome! I am a PhD student at the CLiPS research center under the supervision of Prof Steven Gillis and Prof Jo Verhoeven. Currently, I am working on the acoustic characteristics of babbles and early word production in the speech of typically developing children and children with hearing impairment. My research approach is mainly quantitative and inspired by laboratory phonology. Besides the phonetics of child speech, I am also working on methodological questions related to speech sciences and on (Italian) dialectology.
+Welcome! I am a PhD student at the CLiPS research center under the supervision of Prof Steven Gillis and Prof Jo Verhoeven. Currently, I am working on the acoustic characteristics of babbles and early word production in the speech of typically developing children and children with hearing impairment. My research approach is mainly quantitative and inspired by laboratory phonology. Besides the phonetics of child speech, I am also working on methodological questions related to speech sciences and on dialectology.
 
 <style>
 .column {
@@ -27,13 +27,13 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 <div class="row">
 
 <div class="column">
-<h3>Interests</h3>
+<h3>Research interests</h3>
     <ul style="list-style-type: none;">
-      <li> <i class="fas fa-fw fa-solid fa-microphone-lines">‌</i> Phonetics</li>
+      <li> <i class="fas fa-fw fa-solid fa-search">‌</i> Phonetics</li>
       <li> <i class="fas fa-fw fa-solid fa-search">‌</i> Laboratory Phonology</li>
-      <li> <i class="fas fa-fw fa-solid fa-volume-up">‌</i> Speech Acoustics</li>
-      <li> <i class="fas fa-fw fa-solid fa-baby">‌</i> Language Acquisition</li>
-      <li> <i class="fas fa-fw fa-solid fa-globe-africa">‌</i> Speech Universals </li>
+      <li> <i class="fas fa-fw fa-solid fa-search">‌</i> Speech Acoustics</li>
+      <li> <i class="fas fa-fw fa-solid fa-search">‌</i> Language Acquisition</li>
+      <li> <i class="fas fa-fw fa-solid fa-search">‌</i> Speech Universals </li>
     </ul>
 </div>
 

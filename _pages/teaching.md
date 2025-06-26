@@ -1,6 +1,7 @@
 ---
 permalink: /teaching/
 title: "Teaching"
+toc: true
 ---
 
 ## Universität Mannheim 🇩🇪

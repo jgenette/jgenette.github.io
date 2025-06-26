@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-layout: default
+layout: archive
 permalink: /publications/
 author_profile: true
 toc: true

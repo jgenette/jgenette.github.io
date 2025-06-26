@@ -12,5 +12,5 @@ excerpt:  'The traditional documentation of phonological systems often relies on
 citation: '<b>Genette</b>, <b>J.</b> (2024). </i>Colouring the illustration v.1.0</i>. [Software]. https://jgenette.shinyapps.io/colouringtheillustrationapp/'
 header:
   teaser: "/images/research/hearing.png"
-type: "software"
+pubtype: "software"
 ---

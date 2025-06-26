@@ -19,10 +19,14 @@ toc: true
       </h4>
     </header>
     <ul class="toc__menu">
-      <li><a href="#chapters">Chapter in Edited Books</a></li>
-      <li><a href="#journals">Paper in Peer-Reviewed Journals</a></li>
-      <li><a href="#conferences">Conference Papers</a></li>
-      <li><a href="#data">Data</a></li>
+<ul class="toc__menu">
+  <li><a href="#chapters">Chapter in Edited Books</a></li>
+  <li><a href="#journals">Journal Papers</a></li>
+  <li><a href="#conferences">Conference Papers</a></li>
+  <li><a href="#software">Software</a></li>
+  <li><a href="#data">Data</a></li>
+  <li><a href="#thesis">Thesis</a></li>
+</ul>
     </ul>
   </nav>
 </aside>
@@ -36,7 +40,7 @@ toc: true
     {% endif %}
   {% endfor %}
 
-  <h2 id="journals">Paper in Peer-Reviewed Journals</h2>
+  <h2 id="journals">Journal Papers</h2>
   {% for post in site.publications reversed %}
     {% if post.pubtype == 'p-r paper' %}
       {% include archive-single.html %}
@@ -50,11 +54,26 @@ toc: true
     {% endif %}
   {% endfor %}
 
-  <h2 id="data">Data</h2>
+  <h2 id="data">Software</h2>
+  {% for post in site.publications reversed %}
+    {% if post.pubtype == 'software' %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+
+<h2 id="data">Data</h2>
   {% for post in site.publications reversed %}
     {% if post.pubtype == 'data' %}
       {% include archive-single.html %}
     {% endif %}
   {% endfor %}
 
+  <h2 id="thesis">Theses</h2>
+  {% for post in site.publications reversed %}
+    {% if post.pubtype == 'thesis' %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+
+  
 </section>

@@ -51,17 +51,14 @@
 
 .sidebar__right {
   margin-bottom: 1em;
-
+  
   @include breakpoint($large) {
     position: sticky !important;
     float: right !important;
     top: 0;
     right: 0;
-
-    // Adjust this value
-    width: 250px; // or try 280px or even 300px if needed
-
-    margin-right: 0;
+    width: $right-sidebar-width-narrow;
+    margin-right: -1 * $right-sidebar-width-narrow;
     padding-left: 1em;
     padding-top: 1em !important;
     z-index: 10;

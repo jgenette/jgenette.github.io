@@ -10,17 +10,22 @@ toc: true
 
   <!-- TOC Sidebar -->
   {% if page.toc %}
-  <aside class="sidebar__right">
-    <nav class="toc">
-      <header>
-        <h4 class="nav__title">
-          <i class="fas fa-align-justify"></i>
-          {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}
-        </h4>
-      </header>
-      {% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" %}
-    </nav>
-  </aside>
+<aside class="sidebar__right">
+  <nav class="toc">
+    <header>
+      <h4 class="nav__title">
+        <i class="fas fa-align-justify"></i>
+        On This Page
+      </h4>
+    </header>
+    <ul class="toc__menu">
+      <li><a href="#chapters">Chapter in Edited Books</a></li>
+      <li><a href="#journals">Paper in Peer-Reviewed Journals</a></li>
+      <li><a href="#conferences">Conference Papers</a></li>
+      <li><a href="#data">Data</a></li>
+    </ul>
+  </nav>
+</aside>
   {% endif %}
 
   <!-- Main Content -->

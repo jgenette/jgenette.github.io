@@ -1,36 +1,11 @@
 ---
 title: "Publications"
-layout: archive
+layout: default
 permalink: /publications/
 author_profile: true
 toc: true
 ---
 
-<section class="page__content" itemprop="text">
-
-  <!-- TOC Sidebar -->
-  {% if page.toc %}
-<aside class="sidebar__right">
-  <nav class="toc">
-    <header>
-      <h4 class="nav__title">
-        <i class="fas fa-align-justify"></i>
-        On This Page
-      </h4>
-    </header>
-    <ul class="toc__menu">
-<ul class="toc__menu">
-  <li><a href="#chapters">Chapter in Edited Books</a></li>
-  <li><a href="#journals">Journal Papers</a></li>
-  <li><a href="#conferences">Conference Papers</a></li>
-  <li><a href="#software">Software</a></li>
-  <li><a href="#data">Data</a></li>
-  <li><a href="#thesis">Thesis</a></li>
-</ul>
-    </ul>
-  </nav>
-</aside>
-  {% endif %}
 
   <!-- Main Content -->
   <h2 id="chapters">Chapter in Edited Books</h2>

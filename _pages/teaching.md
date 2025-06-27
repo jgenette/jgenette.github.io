@@ -4,7 +4,7 @@ title: "Teaching"
 toc: true
 ---
 
-## St George’s, University of London 🇬🇧
+## City St George’s, University of London 🇬🇧
 
 ### Guest Lecture (September 2025)
 

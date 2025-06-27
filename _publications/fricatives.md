@@ -1,7 +1,7 @@
 ---
 collection: publications
 permalink: /publication/fricatives
-date: 2025-00-00
+date: 2025-01-01
 venue: 'The Phonetics and Phonology of Fricatives'
 paperurl: ''
 link: ''

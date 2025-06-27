@@ -4,6 +4,25 @@ title: "Teaching"
 toc: true
 ---
 
+## St George’s, University of London 🇬🇧
+
+### Guest Lecture (September 2025)
+
+- **Audiology, Acoustic Phonetics and Deafness Module**  
+  *Guest lecture:* “The developmental aspect(s) of Intrinsic Vowel Pitch”  
+  *Level:* Graduate  
+
+---
+
+## Universiteit Antwerpen 🇧🇪
+
+- **BA Thesis in Applied Linguistics**  
+  *Role:* Assessor  
+  *Level:* Undergraduate (BA)  
+  *Institution:* Universiteit Antwerpen
+
+---
+
 ## Universität Mannheim 🇩🇪
 
 ### Guest Lectures (May 2024)
@@ -26,20 +45,26 @@ toc: true
 
 ### Course Contributions (Sept–Oct 2021)
 
-- **Linguistique synchronique de l’anglais I**  
+- **Linguistique synchronique de l’anglais I**
+  *Topics:* English grammar, Introduction to linguistics
   *Role:* Development of online exercises and tests  
   *Level:* Undergraduate (BA 1)
 
-- **Linguistique synchronique de l’anglais II**  
+- **Linguistique synchronique de l’anglais II**
+  *Topics:* English grammar  
   *Role:* Development of online exercises and tests  
   *Level:* Undergraduate (BA 2)
 
-### Teaching Assistantships (Fall 2019 & 2020)
+### Teaching Assistantships
 
 - **Linguistique générale: concepts et méthodes**  
+  *Semesters:* Fall 2019 & 2020  
+  *Role:* Teaching Assistant  
   *Topics:* Phonetics, Phonology, Morphology, Syntax  
   *Level:* Undergraduate (BA 1 & 2)
 
 - **Linguistique générale: questions théoriques**  
+  *Semester:* Spring 2021  
+  *Role:* Teaching Assistant  
   *Topics:* Phonetics, Phonology, Morphology, Syntax  
   *Level:* Undergraduate (BA 2 & 3)

@@ -42,7 +42,7 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 <ul class="ul-edu fa-ul">
 
 <li>
-<i class="fas fa-fw fa-graduation-cap"></i> PhD in Linguistics <small> (2021-present) </small>
+<i class="fas fa-fw fa-graduation-cap"></i> PhD in Linguistics <small> (2021-2025) </small>
 <span class="tab"></span> <br> <small>Universiteit Antwerpen </small>
 </li>
   

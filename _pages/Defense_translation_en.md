@@ -8,66 +8,91 @@ order_number: 1
 header: 
   og_image: "research/kaft.png"
 ---
-<!-- Slide 1 -->
-<h3>Slide 1</h3>
-<button id="play1">Play</button>
 
-<!-- Slide 2 -->
-<h3>Slide 2</h3>
-<button id="play2" disabled>Play</button>
+<style>
+  #controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 24px;
+  }
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+</style>
 
-<!-- Slide 3 -->
-<h3>Slide 3</h3>
-<button id="play3" disabled>Play</button>
+<h2 id="slideTitle">Slide 1</h2>
 
-<audio id="audio1" src="/files/test.wav"></audio>
-<audio id="audio2" src="/files/test.wav"></audio>
-<audio id="audio3" src="/files/test.wav"></audio>
+<div id="controls">
+  <button id="prevBtn" disabled>⬅️ Prev</button>
+  <button id="playBtn">▶️ Play</button>
+  <button id="nextBtn">Next ➡️</button>
+</div>
+
+<audio id="audio"></audio>
 
 <script>
-  const play1 = document.getElementById('play1');
-  const play2 = document.getElementById('play2');
-  const play3 = document.getElementById('play3');
+  const slides = [
+    { title: "Slide 1", src: "/files/test.wav" },
+    { title: "Slide 2", src: "/files/test.wav" },
+    { title: "Slide 3", src: "/files/test.wav" }
+  ];
 
-  const audio1 = document.getElementById('audio1');
-  const audio2 = document.getElementById('audio2');
-  const audio3 = document.getElementById('audio3');
+  let currentSlide = 0;
+  const slideTitle = document.getElementById('slideTitle');
+  const audio = document.getElementById('audio');
+  const playBtn = document.getElementById('playBtn');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
 
-  // Play button for slide 1
-  play1.addEventListener('click', () => {
-    audio1.currentTime = 0;
-    audio1.play();
-    play1.disabled = true;
+  function updateUI() {
+    slideTitle.textContent = slides[currentSlide].title;
+    audio.src = slides[currentSlide].src;
+    audio.load();
+    playBtn.textContent = "▶️ Play";
+
+    prevBtn.disabled = currentSlide === 0;
+    nextBtn.disabled = currentSlide === slides.length - 1;
+  }
+
+  playBtn.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play();
+      playBtn.textContent = "⏸️ Pause";
+    } else {
+      audio.pause();
+      playBtn.textContent = "▶️ Play";
+    }
   });
 
-  // Play button for slide 2
-  play2.addEventListener('click', () => {
-    audio2.currentTime = 0;
-    audio2.play();
-    play2.disabled = true;
+  prevBtn.addEventListener('click', () => {
+    if (currentSlide > 0) {
+      audio.pause();
+      currentSlide--;
+      updateUI();
+    }
   });
 
-  // Play button for slide 3
-  play3.addEventListener('click', () => {
-    audio3.currentTime = 0;
-    audio3.play();
-    play3.disabled = true;
+  nextBtn.addEventListener('click', () => {
+    if (currentSlide < slides.length - 1) {
+      audio.pause();
+      currentSlide++;
+      updateUI();
+    }
   });
 
-  // When audio1 ends, enable play button for slide 2
-  audio1.addEventListener('ended', () => {
-    play2.disabled = false;
+  audio.addEventListener('ended', () => {
+    playBtn.textContent = "▶️ Play";
+    if (currentSlide < slides.length - 1) {
+      currentSlide++;
+      updateUI();
+      audio.play();
+      playBtn.textContent = "⏸️ Pause";
+    }
   });
 
-  // When audio2 ends, enable play button for slide 3
-  audio2.addEventListener('ended', () => {
-    play3.disabled = false;
-  });
-
-  // When audio3 ends, optionally do something, like reset all buttons:
-  audio3.addEventListener('ended', () => {
-    play1.disabled = false;
-    play2.disabled = true;
-    play3.disabled = true;
-  });
+  // Initialize UI on load
+  updateUI();
 </script>

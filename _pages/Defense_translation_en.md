@@ -8,31 +8,54 @@ order_number: 1
 header: 
   og_image: "research/kaft.png"
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Simple Audio Slides</title>
+<title>Audio Slides</title>
 <style>
   body {
-    font-family: sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    margin: 2rem;
+    margin: 3rem 1rem;
+    background-color: #f9fafb;
+    color: #333;
   }
   #slideTitle {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  #controls {
+    margin-bottom: 2rem;
   }
   #controls button {
     font-size: 1.2rem;
     padding: 0.6rem 1.2rem;
-    margin: 0 0.3rem;
+    margin: 0 0.4rem;
+    min-width: 80px;
+    border: 2px solid #4a90e2;
+    border-radius: 6px;
+    background-color: white;
+    color: #4a90e2;
     cursor: pointer;
+    transition: background-color 0.25s ease, color 0.25s ease;
+    user-select: none;
+  }
+  #controls button:hover:not(:disabled) {
+    background-color: #4a90e2;
+    color: white;
   }
   #controls button:disabled {
-    opacity: 0.5;
+    border-color: #cbd5e1;
+    color: #cbd5e1;
     cursor: default;
+    background-color: #f1f5f9;
+  }
+  #controls button:focus {
+    outline: 3px solid #a0c4ff;
+    outline-offset: 2px;
   }
 </style>
 </head>

@@ -8,75 +8,66 @@ order_number: 1
 header: 
   og_image: "research/kaft.png"
 ---
-
 <!-- Slide 1 -->
 <h3>Slide 1</h3>
-<audio id="audio1" controls>
-  <source src="/files/test.wav" type="audio/mpeg">
-</audio>
+<button id="play1">Play</button>
 
 <!-- Slide 2 -->
 <h3>Slide 2</h3>
-<audio id="audio2" controls>
-  <source src="/files/test.wav" type="audio/mpeg">
-</audio>
+<button id="play2" disabled>Play</button>
 
 <!-- Slide 3 -->
 <h3>Slide 3</h3>
-<audio id="audio3" controls>
-  <source src="/files/test.wav" type="audio/mpeg">
-</audio>
+<button id="play3" disabled>Play</button>
 
-<!-- Optional Reset Button -->
-<button id="resetButton">Restart from Slide 1</button>
+<audio id="audio1" src="/files/test.wav"></audio>
+<audio id="audio2" src="/files/test.wav"></audio>
+<audio id="audio3" src="/files/test.wav"></audio>
 
 <script>
-  const audio1 = document.getElementById("audio1");
-  const audio2 = document.getElementById("audio2");
-  const audio3 = document.getElementById("audio3");
-  const resetButton = document.getElementById("resetButton");
+  const play1 = document.getElementById('play1');
+  const play2 = document.getElementById('play2');
+  const play3 = document.getElementById('play3');
 
-  let current = 1;
+  const audio1 = document.getElementById('audio1');
+  const audio2 = document.getElementById('audio2');
+  const audio3 = document.getElementById('audio3');
 
-  function pauseOthers(except) {
-    [audio1, audio2, audio3].forEach(audio => {
-      if (audio !== except) {
-        audio.pause();
-        audio.currentTime = 0;
-      }
-    });
-  }
-
-  audio1.addEventListener("play", () => {
-    pauseOthers(audio1);
-    current = 1;
+  // Play button for slide 1
+  play1.addEventListener('click', () => {
+    audio1.currentTime = 0;
+    audio1.play();
+    play1.disabled = true;
   });
 
-  audio2.addEventListener("play", () => {
-    if (current >= 2) {
-      pauseOthers(audio2);
-      current = 2;
-    } else {
-      audio2.pause(); // block early access
-    }
+  // Play button for slide 2
+  play2.addEventListener('click', () => {
+    audio2.currentTime = 0;
+    audio2.play();
+    play2.disabled = true;
   });
 
-  audio3.addEventListener("play", () => {
-    if (current >= 3) {
-      pauseOthers(audio3);
-      current = 3;
-    } else {
-      audio3.pause(); // block early access
-    }
+  // Play button for slide 3
+  play3.addEventListener('click', () => {
+    audio3.currentTime = 0;
+    audio3.play();
+    play3.disabled = true;
   });
 
-  // When one audio ends, enable the next step
-  audio1.addEventListener("ended", () => current = 2);
-  audio2.addEventListener("ended", () => current = 3);
-  audio3.addEventListener("ended", () => current = 1);
+  // When audio1 ends, enable play button for slide 2
+  audio1.addEventListener('ended', () => {
+    play2.disabled = false;
+  });
 
-  resetButton.addEventListener("click", () => {
-    pauseOthers();
-    current = 1;
+  // When audio2 ends, enable play button for slide 3
+  audio2.addEventListener('ended', () => {
+    play3.disabled = false;
+  });
+
+  // When audio3 ends, optionally do something, like reset all buttons:
+  audio3.addEventListener('ended', () => {
+    play1.disabled = false;
+    play2.disabled = true;
+    play3.disabled = true;
   });
 </script>

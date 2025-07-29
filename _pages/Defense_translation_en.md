@@ -13,48 +13,72 @@ header:
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Audio Slides</title>
+<title>Audio Slides Themed</title>
 <style>
+  /* Base variables from your theme */
+  :root {
+    --font-family: -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --font-size-base: 14px;
+    --primary-color: #7D502E;
+    --dark-gray: #4a4439;
+    --light-gray: #ddd6c7;
+    --background-color: #F6F1E0;
+    --border-radius: 15px;
+    --button-padding-vertical: 0.6rem;
+    --button-padding-horizontal: 1.2rem;
+  }
+
+  /* Reset and base */
   body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    color: var(--dark-gray);
+    background-color: var(--background-color);
     margin: 3rem 1rem;
-    background-color: #f9fafb;
-    color: #333;
+    text-align: center;
   }
+
   #slideTitle {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.563em; /* type-size-3 ~25px */
     font-weight: 600;
+    margin-bottom: 1.5rem;
   }
+
   #controls {
     margin-bottom: 2rem;
   }
+
   #controls button {
     font-size: 1.2rem;
-    padding: 0.6rem 1.2rem;
+    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
     margin: 0 0.4rem;
     min-width: 80px;
-    border: 2px solid #4a90e2;
-    border-radius: 6px;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--primary-color);
     background-color: white;
-    color: #4a90e2;
+    color: var(--primary-color);
     cursor: pointer;
-    transition: background-color 0.25s ease, color 0.25s ease;
     user-select: none;
+    transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.125);
   }
+
   #controls button:hover:not(:disabled) {
-    background-color: #4a90e2;
+    background-color: var(--primary-color);
     color: white;
+    box-shadow: 0 4px 6px rgba(125, 80, 46, 0.4);
   }
+
   #controls button:disabled {
-    border-color: #cbd5e1;
-    color: #cbd5e1;
+    border-color: var(--light-gray);
+    color: var(--light-gray);
+    background-color: #f0ece4;
     cursor: default;
-    background-color: #f1f5f9;
+    box-shadow: none;
   }
+
   #controls button:focus {
-    outline: 3px solid #a0c4ff;
+    outline: 3px solid rgba(125, 80, 46, 0.5);
     outline-offset: 2px;
   }
 </style>

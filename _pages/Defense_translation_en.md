@@ -8,15 +8,42 @@ order_number: 1
 header: 
   og_image: "research/kaft.png"
 ---
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Simple Audio Slides</title>
+<style>
+  body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 2rem;
+  }
+  #slideTitle {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  #controls button {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+    margin: 0 0.3rem;
+    cursor: pointer;
+  }
+  #controls button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+</style>
+</head>
+<body>
 
 <h2 id="slideTitle">Slide 1</h2>
 
 <div id="controls">
-  <button id="prevBtn" disabled>⬅️ Prev</button>
-  <button id="playBtn">▶️ Play</button>
-  <button id="nextBtn">Next ➡️</button>
+  <button id="prevBtn" disabled>Prev</button>
+  <button id="playBtn">Play</button>
+  <button id="nextBtn">Next</button>
 </div>
 
 <audio id="audio"></audio>
@@ -39,7 +66,7 @@ header:
     slideTitle.textContent = slides[currentSlide].title;
     audio.src = slides[currentSlide].src;
     audio.load();
-    playBtn.textContent = "▶️ Play";
+    playBtn.textContent = "Play";
 
     prevBtn.disabled = currentSlide === 0;
     nextBtn.disabled = currentSlide === slides.length - 1;
@@ -48,10 +75,10 @@ header:
   playBtn.addEventListener('click', () => {
     if (audio.paused) {
       audio.play();
-      playBtn.textContent = "⏸️ Pause";
+      playBtn.textContent = "Pause";
     } else {
       audio.pause();
-      playBtn.textContent = "▶️ Play";
+      playBtn.textContent = "Play";
     }
   });
 
@@ -72,15 +99,19 @@ header:
   });
 
   audio.addEventListener('ended', () => {
-    playBtn.textContent = "▶️ Play";
-    // Move to next slide visually but DO NOT auto-play
+    playBtn.textContent = "Play";
     if (currentSlide < slides.length - 1) {
       currentSlide++;
-      updateUI();  // This changes the slide and loads the new audio but does NOT play it
+      updateUI();
     }
   });
 
-  // Initialize UI on load
-  updateUI();
+  window.addEventListener('DOMContentLoaded', () => {
+    updateUI();
+  });
 </script>
+
+</body>
+</html>
+
 

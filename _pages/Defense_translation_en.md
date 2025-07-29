@@ -9,41 +9,7 @@ header:
   og_image: "research/kaft.png"
 ---
 
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 2rem;
-  }
-  #slideTitle {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-  }
-  #controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-  }
-  button {
-    background: #007bff;
-    border: none;
-    color: white;
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    min-width: 120px;
-  }
-  button:hover:not(:disabled) {
-    background: #0056b3;
-  }
-  button:disabled {
-    background: #cccccc;
-    cursor: not-allowed;
-  }
-</style>
+
 
 <h2 id="slideTitle">Slide 1</h2>
 
@@ -105,14 +71,14 @@ header:
     }
   });
 
-  audio.addEventListener('ended', () => {
-    playBtn.textContent = "▶️ Play";
-    // Move to next slide visually but DO NOT auto-play
-    if (currentSlide < slides.length - 1) {
-      currentSlide++;
-      updateUI();
-    }
-  });
+audio.addEventListener('ended', () => {
+  playBtn.textContent = "▶️ Play";
+  // Move to next slide visually but DO NOT auto-play
+  if (currentSlide < slides.length - 1) {
+    currentSlide++;
+    updateUI();  // This changes the slide and loads the new audio but does NOT play it
+  }
+});
 
   // Initialize UI on load
   updateUI();

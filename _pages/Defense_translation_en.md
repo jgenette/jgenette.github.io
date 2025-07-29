@@ -71,14 +71,14 @@ header:
     }
   });
 
-audio.addEventListener('ended', () => {
-  playBtn.textContent = "▶️ Play";
-  // Move to next slide visually but DO NOT auto-play
-  if (currentSlide < slides.length - 1) {
-    currentSlide++;
-    updateUI();  // This changes the slide and loads the new audio but does NOT play it
-  }
-});
+  audio.addEventListener('ended', () => {
+    playBtn.textContent = "▶️ Play";
+    // Move to next slide visually but DO NOT auto-play
+    if (currentSlide < slides.length - 1) {
+      currentSlide++;
+      updateUI();  // This changes the slide and loads the new audio but does NOT play it
+    }
+  });
 
   // Initialize UI on load
   updateUI();

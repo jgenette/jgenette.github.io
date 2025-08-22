@@ -96,11 +96,14 @@ header:
 <audio id="audio"></audio>
 
 <script>
-  const slides = [
-    { title: "Slide 1", src: "/files/test.wav" },
-    { title: "Slide 2", src: "/files/test.wav" },
-    { title: "Slide 3", src: "/files/test.wav" }
-  ];
+  // total number of slides
+  const totalSlides = 28;
+
+  // generate slides automatically
+  const slides = Array.from({ length: totalSlides }, (_, i) => ({
+    title: `Slide ${i + 1}`,
+    src: `/files/en${i + 1}.wav`
+  }));
 
   let currentSlide = 0;
   const slideTitle = document.getElementById('slideTitle');
@@ -110,7 +113,7 @@ header:
   const nextBtn = document.getElementById('nextBtn');
 
   function updateUI() {
-    slideTitle.textContent = slides[currentSlide].title;
+    slideTitle.textContent = `${slides[currentSlide].title} (${currentSlide + 1}/${slides.length})`;
     audio.src = slides[currentSlide].src;
     audio.load();
     playBtn.textContent = "Play";
@@ -150,6 +153,8 @@ header:
     if (currentSlide < slides.length - 1) {
       currentSlide++;
       updateUI();
+      audio.play(); // auto-play next slide
+      playBtn.textContent = "Pause";
     }
   });
 
@@ -157,8 +162,3 @@ header:
     updateUI();
   });
 </script>
-
-</body>
-</html>
-
-

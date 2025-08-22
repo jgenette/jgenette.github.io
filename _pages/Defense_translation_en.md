@@ -96,14 +96,36 @@ header:
 <audio id="audio"></audio>
 
 <script>
-  // total number of slides
-  const totalSlides = 28;
-
-  // generate slides automatically
-  const slides = Array.from({ length: totalSlides }, (_, i) => ({
-    title: `Slide ${i + 1}`,
-    src: `/files/en${i + 1}.wav`
-  }));
+  const slides = [
+  { title: "Slide 1", src: "/files/en1.wav" },
+  { title: "Slide 2", src: "/files/en2.wav" },
+  { title: "Slide 3", src: "/files/en3.wav" },
+  { title: "Slide 4", src: "/files/en4.wav" },
+  { title: "Slide 5", src: "/files/en5.wav" },
+  { title: "Slide 6", src: "/files/en6.wav" },
+  { title: "Slide 7", src: "/files/en7.wav" },
+  { title: "Slide 8", src: "/files/en8.wav" },
+  { title: "Slide 9", src: "/files/en9.wav" },
+  { title: "Slide 10", src: "/files/en10.wav" },
+  { title: "Slide 11", src: "/files/en11.wav" },
+  { title: "Slide 12", src: "/files/en12.wav" },
+  { title: "Slide 13", src: "/files/en13.wav" },
+  { title: "Slide 14", src: "/files/en14.wav" },
+  { title: "Slide 15", src: "/files/en15.wav" },
+  { title: "Slide 16", src: "/files/en16.wav" },
+  { title: "Slide 17", src: "/files/en17.wav" },
+  { title: "Slide 18", src: "/files/en18.wav" },
+  { title: "Slide 19", src: "/files/en19.wav" },
+  { title: "Slide 20", src: "/files/en20.wav" },
+  { title: "Slide 21", src: "/files/en21.wav" },
+  { title: "Slide 22", src: "/files/en22.wav" },
+  { title: "Slide 23", src: "/files/en23.wav" },
+  { title: "Slide 24", src: "/files/en24.wav" },
+  { title: "Slide 25", src: "/files/en25.wav" },
+  { title: "Slide 26", src: "/files/en26.wav" },
+  { title: "Slide 27", src: "/files/en27.wav" },
+  { title: "Slide 28", src: "/files/en28.wav" }
+  ];
 
   let currentSlide = 0;
   const slideTitle = document.getElementById('slideTitle');
@@ -113,7 +135,7 @@ header:
   const nextBtn = document.getElementById('nextBtn');
 
   function updateUI() {
-    slideTitle.textContent = `${slides[currentSlide].title} (${currentSlide + 1}/${slides.length})`;
+    slideTitle.textContent = slides[currentSlide].title;
     audio.src = slides[currentSlide].src;
     audio.load();
     playBtn.textContent = "Play";
@@ -153,8 +175,6 @@ header:
     if (currentSlide < slides.length - 1) {
       currentSlide++;
       updateUI();
-      audio.play(); // auto-play next slide
-      playBtn.textContent = "Pause";
     }
   });
 
@@ -162,3 +182,6 @@ header:
     updateUI();
   });
 </script>
+
+</body>
+</html>

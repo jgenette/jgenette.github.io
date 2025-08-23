@@ -126,7 +126,6 @@ header:
   { title: "Diapositive 26", src: "/files/fr26.wav" },
   { title: "Diapositive 27", src: "/files/fr27.wav" },
   { title: "Diapositive 28", src: "/files/fr28.wav" }
-<img width="454" height="425" alt="image" src="https://github.com/user-attachments/assets/c786de29-d648-47e3-b0fe-a9363fca4122" />
 
   ];
 

@@ -17,7 +17,8 @@ header:
       click here
     </a>
   </p>
-  <p>If you have headphones, you’ll be able to activate an audio guide with each slide.</p>
+  <p>If you have headphones, you’ll be able to activate an audio guide with each slide.<br>
+  The slide number is visible in the top-left corner.</p>
 
   <hr style="margin: 1.5rem auto; width: 50%; border: 0; border-top: 1px solid #ddd6c7;" />
 

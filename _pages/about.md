@@ -32,21 +32,21 @@ In addition to child speech phonetics, I also work on methodological questions i
   <div class="mm-card">
     <img src="/assets/images/logo/fwo.svg" class="mm-logo" alt="FWO">
     <div>
-      <strong>FWO Fellow</strong> – Universiteit Antwerpen
+      <strong>Postdoctoral researcher</strong> – Universiteit Antwerpen
     </div>
   </div>
 
   <div class="mm-card">
     <img src="/assets/images/logo/umons.svg" class="mm-logo" alt="UMons">
     <div>
-      <strong>Université de Mons</strong>
+      <strong>Lecturer in French Orthography and General Linguistics</strong>
     </div>
   </div>
 
   <div class="mm-card">
     <img src="/assets/images/logo/kuleuven.svg" class="mm-logo" alt="KU Leuven">
     <div>
-      <strong>KU Leuven</strong> 
+      <strong>Lecturer in Phonetics and Phonology</strong> 
     </div>
   </div>
 
@@ -172,7 +172,6 @@ In addition to child speech phonetics, I also work on methodological questions i
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  background: #fafafa;
 }
 
 .ri-icon {

@@ -37,26 +37,34 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
     </ul>
 </div>
 
-<div class="column">
 <h3>Education</h3>
-<ul class="ul-edu fa-ul">
 
-<li>
-<i class="fas fa-fw fa-graduation-cap"></i> PhD in Linguistics <small> (2021-2025) </small>
-<span class="tab"></span> <br> <small>Universiteit Antwerpen </small>
-</li>
-  
-<li>
-<i class="fas fa-fw fa-graduation-cap"></i> MA in Linguistics  <small> (2019-2021) </small>
-  <span class="tab"> </span> <br> <small> Université Libre de Bruxelles </small>
-</li>
+<div class="mm-cards">
 
-<li>
-<i class="fas fa-fw fa-graduation-cap"></i> BA in Languages and Letters <small> (2016-2019) </small>
-<span class="tab"></span> <br> <small>Université Libre de Bruxelles </small>
-</li>
+<div class="mm-card">
+  <img src="/assets/images/logo/uantwerpen.svg" class="mm-logo" alt="UAntwerpen">
+  <div>
+    <strong>PhD in Linguistics</strong> <small>(2021–2025)</small><br>
+    Universiteit Antwerpen
+  </div>
+</div>
 
-</ul>
+<div class="mm-card">
+  <img src="/assets/images/logo/ulb.svg" class="mm-logo" alt="ULB">
+  <div>
+    <strong>MA in Linguistics</strong> <small>(2019–2021)</small><br>
+    Université Libre de Bruxelles
+  </div>
+</div>
+
+<div class="mm-card">
+  <img src="/assets/images/logo/ulb.svg" class="mm-logo" alt="ULB">
+  <div>
+    <strong>BA in Languages and Letters</strong> <small>(2016–2019)</small><br>
+    Université Libre de Bruxelles
+  </div>
+</div>
+
 </div>
 
 <h3>Current Positions</h3>
@@ -81,3 +89,39 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 </div>
 
 </div>
+
+<style>
+
+/* Generic card layout */
+.mm-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.mm-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+/* Logos (universities) */
+.mm-logo {
+  width: 45px;
+  height: auto;
+}
+
+/* Icons for research interests */
+.mm-icon {
+  width: 32px;
+  height: auto;
+  opacity: 0.9;
+}
+
+</style>
+

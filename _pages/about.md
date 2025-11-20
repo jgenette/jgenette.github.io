@@ -59,4 +59,25 @@ Welcome! I am a PhD student at the CLiPS research center under the supervision o
 </ul>
 </div>
 
+<h3>Current Positions</h3>
+
+<div style="display: flex; flex-direction: column; gap: 12px;">
+
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="/assets/images/logos/fwo.png" alt="FWO" style="width:45px;">
+    <span>FWO Fellow – Universiteit Antwerpen</span>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="/assets/images/logos/umons.png" alt="UMons" style="width:45px;">
+    <span>Université de Mons</span>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="/assets/images/logos/kuleuven.png" alt="KU Leuven" style="width:45px;">
+    <span>KU Leuven</span>
+  </div>
+
+</div>
+
 </div>

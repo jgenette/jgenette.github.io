@@ -31,7 +31,7 @@ author_profile: true
   <article class="course">
     <div class="course-media">
       <!-- you can replace the src by a course-specific image -->
-      <img src="/assets/images/teaching/phonetics-course.png" alt="Intro Phonetics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+      <img src="/assets/images/phonetics_and_phonology.png" alt="Intro Phonetics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
     </div>
     <div class="course-content">
       <h3>Introduction to Phonetics (BA / MA)</h3>

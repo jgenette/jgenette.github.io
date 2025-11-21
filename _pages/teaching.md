@@ -37,7 +37,6 @@ author_profile: true
 
   <!-- COURSE CONTENT -->
   <div class="course-content">
-    <h3>Phonetics and Phonology (MA)</h3>
     <p><strong>When:</strong> Spring 2026 — <strong>Where:</strong> KU Leuven</p>
 
     <p>This MA-level course provides an integrated introduction to articulatory and acoustic
@@ -125,14 +124,12 @@ author_profile: true
 }
 
 .course-banner {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
+  width: 100%;
   max-height: 260px;
   object-fit: cover;
-  border-radius: 0;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 15px;
 }
 .course-block {
   margin-top: 20px;

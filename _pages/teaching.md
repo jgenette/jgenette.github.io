@@ -7,7 +7,7 @@ author_profile: true
 
 <!-- ===== HERO / BANNER (utilise votre image uploadée) -->
 <section style="margin-bottom:20px;">
-  <img src="/mnt/data/dc113963-eb37-4a22-86d5-84a900571906.png" alt="Teaching banner" style="width:100%; max-height:240px; object-fit:cover; border-radius:6px;">
+  <img src="/assets/images/teaching/teaching_banner.png" alt="Teaching banner" style="width:100%; max-height:240px; object-fit:cover; border-radius:6px;">
 </section>
 
 <!-- ===== OBJECTIVES -->
@@ -27,19 +27,37 @@ author_profile: true
 <section>
   <h2>Courses taught</h2>
 
-  <!-- Course 1 -->
-  <article class="course">
-    <div class="course-media">
-      <!-- you can replace the src by a course-specific image -->
-      <img src="/assets/images/teaching/phonetics_and_phonology.png" alt="Intro Phonetics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>Phonetics and Phonology (MA)</h3>
-      <p><strong>When:</strong> Spring 2026 — <strong>Where:</strong> KU Leuven</p>
-      <p>Lecture-based introduction to articulatory and acoustic phonetics. Topics include speech production, acoustic correlates of segments, basic spectrogram interpretation and experimental methods. Assignments include lab exercises using Praat and short data projects.</p>
-      <p><a href="/assets/syllabus/intro-phonetics-syllabus.pdf">Syllabus (PDF)</a> · <a href="/assets/assignments/phonetics-lab1.zip">Lab materials</a></p>
-    </div>
-  </article>
+<!-- Course: Phonetics and Phonology (MA) -->
+<article class="course">
+  <div class="course-media">
+    <img src="/assets/images/teaching/phonetics_and_phonology.png"
+         alt="Phonetics and Phonology"
+         style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+  </div>
+
+  <div class="course-content">
+    <h3>Phonetics and Phonology (MA)</h3>
+    <p>
+      <strong>When:</strong> Spring 2026 &nbsp;—&nbsp;
+      <strong>Where:</strong> KU Leuven
+    </p>
+
+    <p>
+      This MA-level course provides an integrated introduction to articulatory and acoustic
+      phonetics and to core issues in phonological theory. Students learn to analyse speech
+      acoustically, interpret spectrograms, and connect empirical observations to theoretical
+      questions in phonology. The course combines lectures with hands-on laboratory work.
+      Assignments include Praat-based analyses, problem sets, and short data-driven projects.
+    </p>
+
+    <p>
+      <a href="/assets/syllabus/phonetics_phonology_syllabus.pdf">Syllabus (PDF)</a>
+      &nbsp;·&nbsp;
+      <a href="/assets/assignments/phonetics_phonology_lab1.zip">Lab materials</a>
+    </p>
+  </div>
+</article>
+
 
   <!-- Course 2 -->
   <article class="course">

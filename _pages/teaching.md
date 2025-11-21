@@ -1,6 +1,6 @@
 ---
 permalink: /teaching/
-title: "Teaching"
+title: ""
 excerpt: "Teaching"
 author_profile: true
 ---
@@ -98,7 +98,7 @@ author_profile: true
 
 <!-- ===== ADDITIONAL RESOURCES -->
 <section>
-  <h2>Resources & Reading Lists</h2>
+  <h2>Useful links</h2>
   <p>Selected resources for students (tools, tutorials, corpora):</p>
   <ul>
     <li><a href="https://www.fon.hum.uva.nl/praat/">Praat tutorials</a></li>

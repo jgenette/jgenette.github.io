@@ -45,34 +45,34 @@ $type-size-8                : 0.625em;  // ~10px
 $type-size-syntax           : 0.875em;  // ~14px
 
 
+
 /*
-   Colors
-   ========================================================================== */
+   === MODERN SLATE PALETTE ===
+*/
 
-$gray                       : #7D502E;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$gray                       : #4F6D7A;        // slate blue-gray
+$dark-gray                  : #2E3A45;        // charcoal
+$darker-gray                : #1F272D;        // deeper slate
+$light-gray                 : #C9D6DF;        // pale slate
+$lighter-gray               : #EEF3F6;        // near-white bluish
 
-$body-color                 : #fff;
-  
-$background-color           : linear-gradient(90deg, rgba(125, 80, 46, 1) 0%, rgba(246, 241, 224, 0.35) 35%, rgba(246, 241, 224, 0.35) 68%, rgba(246, 241, 224, 1) 100%);
+$body-color                 : #F7F9FA;        // page background
 
-//$background: linear-gradient(90deg, rgba(125, 80, 46, 1) 0%, rgba(246, 241, 224, 0.35) 35%, rgba(246, 241, 224, 0.35) 68%, rgba(246, 241, 224, 1) 100%);
-$background-color           : #F6F1E0;
+$background-color           : #F7F9FA;
 
+$text-color                 : #2A2F33;        // main text
+$border-color               : #DDE3E6;        // subtle lines
 
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$primary-color              : #2E3A45;        // charcoal
+$info-color                 : #4F6D7A;        // slate
 
-$primary-color              : #7D502E;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #7D502E;
+$link-color                 : #4F6D7A;        // blue-slate
+$link-color-hover           : #2E3A45;        // charcoal
+$link-color-visited         : #4F6D7A;
+
+$masthead-link-color        : #2E3A45;
+$masthead-link-color-hover  : #4F6D7A;
+
 
 /* brands */
 $behance-color              : #1769FF;
@@ -101,13 +101,6 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
-
-/* links */
-$link-color                 : #D6AD60;
-$link-color-hover           : mix(#fff, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#fff, $link-color, 25%);
 
 
 /*

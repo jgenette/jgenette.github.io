@@ -31,11 +31,11 @@ author_profile: true
   <article class="course">
     <div class="course-media">
       <!-- you can replace the src by a course-specific image -->
-      <img src="/assets/images/phonetics_and_phonology.png" alt="Intro Phonetics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+      <img src="/assets/images/teaching/phonetics_and_phonology.png" alt="Intro Phonetics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
     </div>
     <div class="course-content">
-      <h3>Introduction to Phonetics (BA / MA)</h3>
-      <p><strong>When:</strong> Fall 20XX — <strong>Where:</strong> Universiteit Antwerpen</p>
+      <h3>Phonetics and Phonology (MA)</h3>
+      <p><strong>When:</strong> Spring 2026 — <strong>Where:</strong> KU Leuven</p>
       <p>Lecture-based introduction to articulatory and acoustic phonetics. Topics include speech production, acoustic correlates of segments, basic spectrogram interpretation and experimental methods. Assignments include lab exercises using Praat and short data projects.</p>
       <p><a href="/assets/syllabus/intro-phonetics-syllabus.pdf">Syllabus (PDF)</a> · <a href="/assets/assignments/phonetics-lab1.zip">Lab materials</a></p>
     </div>

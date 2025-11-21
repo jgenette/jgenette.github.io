@@ -32,7 +32,7 @@ author_profile: true
   <div class="course-media">
     <img src="/assets/images/teaching/phonetics_and_phonology.png"
          alt="Phonetics and Phonology"
-         style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+         style="width:100%; max-height:120px; object-fit:cover; border-radius:6px;">
   </div>
 
   <div class="course-content">

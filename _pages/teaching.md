@@ -7,7 +7,7 @@ author_profile: true
 
 <!-- ===== HERO / BANNER (utilise votre image uploadée) -->
 <section style="margin-bottom:20px;">
-  <img src="/assets/images/teaching/teaching_banner.png" alt="Teaching banner" style="width:100%; max-height:240px; object-fit:cover; border-radius:6px;">
+  <img src="/assets/images/teaching/teachning_banner.png" alt="Teaching banner" style="width:100%; max-height:240px; object-fit:cover; border-radius:6px;">
 </section>
 
 <!-- ===== OBJECTIVES -->

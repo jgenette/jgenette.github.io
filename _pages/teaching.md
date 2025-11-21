@@ -7,7 +7,7 @@ author_profile: true
 
 <!-- ===== HERO / BANNER (utilise votre image uploadée) -->
 <section style="margin-bottom:20px;">
-  <img src="/assets/images/teaching/teachning_banner.png" alt="Teaching banner" style="width:100%; max-height:240px; object-fit:cover; border-radius:6px;">
+  <img src="/assets/images/teaching/teachning_banner.png" alt="Teaching banner" style="width:100%; max-height:240px; object-fit:cover">
 </section>
 
 <!-- ===== OBJECTIVES -->
@@ -27,36 +27,32 @@ author_profile: true
 <section>
   <h2>Courses taught</h2>
 
-<!-- Course: Phonetics and Phonology (MA) -->
-<article class="course">
-  <div class="course-media">
-    <img src="/assets/images/teaching/phonetics_and_phonology.png"
-         alt="Phonetics and Phonology"
-         style="width:100%; max-height:120px; object-fit:cover; border-radius:6px;">
-  </div>
+<!-- Course 1 -->
+<section class="course-block">
 
+  <!-- FULL-WIDTH COURSE BANNER -->
+  <img src="/assets/images/teaching/phonetics_and_phonology.png"
+       alt="Phonetics and Phonology banner"
+       class="course-banner">
+
+  <!-- COURSE CONTENT -->
   <div class="course-content">
     <h3>Phonetics and Phonology (MA)</h3>
-    <p>
-      <strong>When:</strong> Spring 2026 &nbsp;—&nbsp;
-      <strong>Where:</strong> KU Leuven
-    </p>
+    <p><strong>When:</strong> Spring 2026 — <strong>Where:</strong> KU Leuven</p>
 
-    <p>
-      This MA-level course provides an integrated introduction to articulatory and acoustic
-      phonetics and to core issues in phonological theory. Students learn to analyse speech
-      acoustically, interpret spectrograms, and connect empirical observations to theoretical
-      questions in phonology. The course combines lectures with hands-on laboratory work.
-      Assignments include Praat-based analyses, problem sets, and short data-driven projects.
-    </p>
+    <p>This MA-level course provides an integrated introduction to articulatory and acoustic
+    phonetics and to core issues in phonological theory. Students learn to analyse speech
+    acoustically, interpret spectrograms, and connect empirical observations to theoretical
+    questions in phonology.</p>
 
     <p>
       <a href="/assets/syllabus/phonetics_phonology_syllabus.pdf">Syllabus (PDF)</a>
-      &nbsp;·&nbsp;
+      ·
       <a href="/assets/assignments/phonetics_phonology_lab1.zip">Lab materials</a>
     </p>
   </div>
-</article>
+
+</section>
 
 
   <!-- Course 2 -->
@@ -111,12 +107,6 @@ author_profile: true
   </ul>
 </section>
 
-<!-- ===== CONTACT / OFFICE HOURS -->
-<section style="background:#f6f7f8; padding:14px; border-radius:6px; margin-top:18px;">
-  <h2>Contact & Office hours</h2>
-  <p>Email: <a href="mailto:your.name@university.edu">your.name@university.edu</a></p>
-  <p>Office hours: Tue 14:00–16:00 (or by appointment). Location: <em>Add your office</em>.</p>
-</section>
 
 <!-- ===== CSS simple pour aligner les cours (responsive) -->
 <style>
@@ -133,4 +123,20 @@ author_profile: true
   .course { flex-direction: column; }
   .course-media { width:100%; }
 }
+
+.course-banner {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 0;
+}
+.course-block {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+</style>
 </style>

@@ -6,7 +6,6 @@ layout: single
 sidebar: false
 author_profile: false
 toc: false
-classes: wide
 header:
   overlay_image: /assets/images/teaching/teachning_banner.png
 ---

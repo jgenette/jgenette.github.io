@@ -2,7 +2,10 @@
 permalink: /teaching/
 title: ""
 excerpt: "Teaching"
-author_profile: true
+layout: single
+sidebar: false
+author_profile: false
+toc: false
 ---
 
 <!-- ===== HERO / BANNER (utilise votre image uploadée) -->

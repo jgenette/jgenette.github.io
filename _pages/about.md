@@ -24,7 +24,7 @@ In addition to child speech phonetics, I also work on methodological questions i
 <!-- CURRENT POSITIONS SECTION -->
 <!-- =============================== -->
 
-<section style="background:#f7f7f7; padding:25px; border-radius:8px; margin:30px 0;">
+<section style="background:#ffffff; padding:25px; border-radius:8px; margin:0px 0;">
 <h2>Current Positions</h2>
 
 <div class="mm-cards">
@@ -149,7 +149,7 @@ In addition to child speech phonetics, I also work on methodological questions i
   padding: 15px 18px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  background: #ffffff;
+  background: #f7f7f7;
 }
 
 .mm-logo {

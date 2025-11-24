@@ -1,6 +1,6 @@
 ---
 permalink: /teaching/
-title: ""
+title: "Teaching"
 excerpt: "Teaching"
 layout: single
 sidebar: false

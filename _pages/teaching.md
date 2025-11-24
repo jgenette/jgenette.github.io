@@ -6,6 +6,7 @@ layout: single
 sidebar: false
 author_profile: false
 toc: false
+classes: wide
 ---
 
 <!-- ===== HERO / BANNER (utilise votre image uploadée) -->

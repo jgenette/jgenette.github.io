@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "About me"
 excerpt: "About me"
 author_profile: true
 ---
@@ -9,8 +8,7 @@ author_profile: true
 <!-- ABOUT SECTION -->
 <!-- =============================== -->
 
-<section style="padding: 25px 0;">
-<h2>About me</h2>
+<section style="padding: 0px 0;">
 <p>
 Welcome! I am a PhD student at the CLiPS research center under the supervision of Prof. Steven Gillis and Prof. Jo Verhoeven. 
 My research focuses on the acoustic characteristics of babbling and early word production in the speech of typically developing children and children with hearing impairment. 
@@ -96,7 +94,7 @@ In addition to child speech phonetics, I also work on methodological questions i
 <!-- EDUCATION SECTION -->
 <!-- =============================== -->
 
-<section style="background:#f7f7f7; padding:25px; border-radius:8px; margin-top:30px;">
+<section style="background:#f7f7f7; padding:25px; border-radius:8px; margin-top:0px;">
 <h2>Education</h2>
 
 <div class="mm-cards">

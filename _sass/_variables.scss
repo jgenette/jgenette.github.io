@@ -49,30 +49,26 @@ $type-size-syntax           : 0.875em;  // ~14px
    Colors
    ========================================================================== */
 
-$gray                       : #7D502E;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
-
-$body-color                 : #fff;
-  
-$background-color           : linear-gradient(90deg, rgba(125, 80, 46, 1) 0%, rgba(246, 241, 224, 0.35) 35%, rgba(246, 241, 224, 0.35) 68%, rgba(246, 241, 224, 1) 100%);
-
-//$background: linear-gradient(90deg, rgba(125, 80, 46, 1) 0%, rgba(246, 241, 224, 0.35) 35%, rgba(246, 241, 224, 0.35) 68%, rgba(246, 241, 224, 1) 100%);
-$background-color           : #F6F1E0;
 
 
-$code-background-color      : #fafafa;
+$gray                       : #6b7280;  // neutral-500
+$dark-gray                  : #4b5563;  // neutral-600
+$darker-gray                : #374151;  // neutral-700
+$light-gray                 : #e5e7eb;  // neutral-200
+$lighter-gray               : #f3f4f6;  // neutral-100
+
+$body-color                 : #ffffff;
+$background-color           : #ffffff;
+$code-background-color      : #f8f9fa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7D502E;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #7D502E;
+$primary-color              : #6b7280;  // match modern gray tone
+$success-color              : #4ade80;  // modern green
+$warning-color              : #f59e0b;  // modern amber
+$danger-color               : #ef4444;  // modern red
+$info-color                 : #3b82f6;  // modern blue
 
 /* brands */
 $behance-color              : #1769FF;

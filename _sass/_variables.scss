@@ -47,48 +47,36 @@ $type-size-syntax           : 0.875em;  // ~14px
 
 
 /*
-   === MODERN SLATE PALETTE ===
-*/
+   Colors
+   ========================================================================== */
 
-$gray                       : #4F6D7A;        // slate blue-gray
-$dark-gray                  : #2E3A45;        // charcoal
-$darker-gray                : #1F272D;        // deeper slate
-$light-gray                 : #C9D6DF;        // pale slate
-$lighter-gray               : #EEF3F6;        // near-white bluish
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+$lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #F7F9FA;        // page background
-
-$background-color           : #F7F9FA;
-
+$body-color                 : #fff;
+$background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$text-color                 : #2A2F33;        // main text
-$border-color               : #DDE3E6;        // subtle lines
-
-$primary-color              : #2E3A45;        // charcoal
-$info-color                 : #4F6D7A;        // slate
-
-$link-color                 : #4F6D7A;        // blue-slate
-$link-color-hover           : #2E3A45;        // charcoal
-$link-color-visited         : #4F6D7A;
-
-$masthead-link-color        : #2E3A45;
-$masthead-link-color-hover  : #4F6D7A;
-
+$primary-color              : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+$danger-color               : #ee5f5b;
+$info-color                 : #2979ab;
 
 /* brands */
 $behance-color              : #1769FF;
 $dribbble-color             : #ea4c89;
-$researchgate-color         : #00CCBB;
 $facebook-color             : #3b5998;
 $flickr-color               : #ff0084;
 $foursquare-color           : #0072b1;
 $github-color               : #171516;
 $gitlab-color               : #FCA121;
-$researchgate-color         : #00D6BD;
 $google-plus-color          : #dd4b39;
 $instagram-color            : #517fa4;
 $lastfm-color               : #d51007;
@@ -106,6 +94,13 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
+
+/* links */
+$link-color                 : $info-color;
+$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color-visited         : mix(#fff, $link-color, 25%);
+$masthead-link-color        : $primary-color;
+$masthead-link-color-hover  : mix(#fff, $link-color, 25%);
 
 
 /*

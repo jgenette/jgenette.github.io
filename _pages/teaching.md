@@ -7,12 +7,9 @@ sidebar: false
 author_profile: false
 toc: false
 classes: wide
+header:
+  overlay_image: /assets/images/teaching/teachning_banner.png
 ---
-
-<!-- ===== HERO / BANNER (utilise votre image uploadée) -->
-<section style="margin-bottom:20px;">
-  <img src="/assets/images/teaching/teachning_banner.png" alt="Teaching banner" style="width:100%; max-height:240px; object-fit:cover">
-</section>
 
 <!-- ===== OBJECTIVES -->
 <section>

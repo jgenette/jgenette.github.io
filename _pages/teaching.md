@@ -5,7 +5,7 @@ sidebar: false
 author_profile: false
 toc: false
 header: 
-  image: /assets/images/teaching/teachning_banner.png
+  image: teachning_banner.png
 ---
 <!-- ===== OBJECTIVES -->
 <section>

@@ -6,11 +6,13 @@ layout: single
 sidebar: false
 author_profile: false
 toc: false
-header:
-  overlay_image: "/assets/images/teaching/phonetics_and_phonology.png"
-  show_overlay_title: false
----
 
+---
+<div class="page-banner-container">
+  <!-- Full-width top banner -->
+  <img src="/assets/images/teaching/teachning_banner.png" alt="Teaching banner" class="full-banner">
+
+</div>
 <!-- ===== OBJECTIVES -->
 <section>
   <h2>Objectives in the Classroom</h2>
@@ -28,163 +30,84 @@ header:
 <section>
   <h2>Courses taught</h2>
 
-  <!-- 2026 -->
+  <!-- Course 1: Phonetics and Phonology -->
+  <section class="course-block">
+    <img src="/assets/images/teaching/phonetics_and_phonology.png" alt="Phonetics and Phonology banner" class="course-banner">
+    <div class="course-content">
+      <p><strong>When:</strong> Spring 2026 — <strong>Where:</strong> KU Leuven, BE</p>
+      <p><strong>Role:</strong> University lecturer — Graduate level</p>
+      <p>This MA-level course provides an integrated introduction to articulatory and acoustic phonetics and core issues in phonological theory. Students learn to analyse speech acoustically, interpret spectrograms, and connect empirical observations to theoretical questions in phonology.</p>
+      <p>
+        <a href="/assets/syllabus/phonetics_phonology_syllabus.pdf">Syllabus (PDF)</a> ·
+        <a href="/assets/assignments/phonetics_phonology_lab1.zip">Lab materials</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Course 2: Orthographe lexicale et grammaticale -->
   <article class="course">
     <div class="course-media">
-      <img src="/assets/images/teaching/phonetics_and_phonology.png" alt="Phonetics and Phonology" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+      <img src="/assets/images/teaching/french-orthography.png" alt="French Lexical and Grammatical Orthography" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
     </div>
     <div class="course-content">
-      <h3>Phonetics and Phonology</h3>
-      <p><strong>When:</strong> Spring 2026 — <strong>Where:</strong> KU Leuven (BE)</p>
-      <p>University lecturer. Graduate level. Course covering articulatory/acoustic phonetics and core phonological theory.</p>
+      <h3>Orthographe lexicale et grammaticale [French Lexical and Grammatical Orthography]</h3>
+      <p><strong>When:</strong> Fall 2025 — <strong>Where:</strong> Université de Mons, BE</p>
+      <p><strong>Role:</strong> University lecturer — Undergraduate level</p>
     </div>
   </article>
 
-  <!-- Fall 2025 — Orthography -->
+  <!-- Course 3: Linguistique générale -->
   <article class="course">
     <div class="course-media">
-      <img src="/assets/images/teaching/orthography.png" alt="Orthography" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+      <img src="/assets/images/teaching/general-linguistics.png" alt="General Linguistics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
     </div>
     <div class="course-content">
-      <h3>Orthographe lexicale et grammaticale</h3>
-      <p><strong>When:</strong> Fall 2025 — <strong>Where:</strong> Université de Mons (BE)</p>
-      <p>University lecturer. Undergraduate level. Teaching French lexical and grammatical orthography.</p>
+      <h3>Linguistique générale [General Linguistics]</h3>
+      <p><strong>When:</strong> Fall 2025 — <strong>Where:</strong> Université de Mons, BE</p>
+      <p><strong>Role:</strong> University lecturer — Undergraduate level</p>
     </div>
   </article>
 
-  <!-- Fall 2025 — Linguistique générale -->
+  <!-- Course 4: Module Audiology (Wrocław) -->
   <article class="course">
     <div class="course-media">
-      <img src="/assets/images/teaching/linguistics_general.png" alt="General Linguistics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+      <img src="/assets/images/teaching/audiology.png" alt="Audiology and Acoustic Phonetics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
     </div>
     <div class="course-content">
-      <h3>Linguistique générale</h3>
-      <p><strong>When:</strong> Fall 2025 — <strong>Where:</strong> Université de Mons (BE)</p>
-      <p>University lecturer. Undergraduate level. Course covering foundations of general linguistics.</p>
+      <h3>Module Audiology, Acoustic Phonetics and Deafness</h3>
+      <p><strong>When:</strong> 23 October 2025 — <strong>Where:</strong> Uniwersytet Wrocławski, PL</p>
+      <p>Guest lecture: “Corpora en wetenschappelijk onderzoek in de taalkunde” [Corpora and scientific research in linguistics, in Dutch]</p>
     </div>
   </article>
 
-  <!-- 23 October 2025 -->
+  <!-- Course 5: Module Audiology (London) -->
   <article class="course">
     <div class="course-media">
-      <img src="/assets/images/teaching/audiology.png" alt="Audiology Module" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+      <img src="/assets/images/teaching/audiology.png" alt="Audiology and Acoustic Phonetics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
     </div>
     <div class="course-content">
-      <h3>Audiology, Acoustic Phonetics and Deafness — Guest Lecture</h3>
-      <p><strong>When:</strong> 23 October 2025 — <strong>Where:</strong> Uniwersytet Wrocławski (PL)</p>
-      <p>Guest lecture: “Corpora en wetenschappelijk onderzoek in de taalkunde” [Corpora and scientific research in linguistics].</p>
+      <h3>Module Audiology, Acoustic Phonetics and Deafness</h3>
+      <p><strong>When:</strong> 11 September 2025 — <strong>Where:</strong> City, St George's, University of London, UK</p>
+      <p>Guest lecture: “The developmental aspect(s) of Intrinsic Vowel Pitch”</p>
     </div>
   </article>
 
-  <!-- 11 September 2025 -->
+  <!-- Course 6: Bachelorscriptie -->
   <article class="course">
     <div class="course-media">
-      <img src="/assets/images/teaching/audiology.png" alt="Audiology Module" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+      <img src="/assets/images/teaching/ba-thesis.png" alt="BA Thesis" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
     </div>
     <div class="course-content">
-      <h3>Audiology, Acoustic Phonetics and Deafness — Guest Lecture</h3>
-      <p><strong>When:</strong> 11 September 2025 — <strong>Where:</strong> City St George’s, University of London (UK)</p>
-      <p>Guest lecture: “The developmental aspect(s) of Intrinsic Vowel Pitch”.</p>
+      <h3>Bachelorscriptie [BA thesis]</h3>
+      <p><strong>When:</strong> 2024 – 2026 — <strong>Where:</strong> Universiteit Antwerpen, BE</p>
+      <p>Assessor of BA theses in Applied Linguistics — Undergraduate level</p>
     </div>
   </article>
 
-  <!-- 2024–2026 — BA theses -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/ba_thesis.png" alt="BA thesis" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>Bachelorscriptie (BA thesis supervision)</h3>
-      <p><strong>When:</strong> 2024–2026 — <strong>Where:</strong> Universiteit Antwerpen (BE)</p>
-      <p>Assessor for BA theses in Applied Linguistics. Undergraduate level.</p>
-    </div>
-  </article>
-
-  <!-- 8 May 2024 — Phonetics & Phonology Seminar -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/child-speech.png" alt="Child Speech" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>Phonetics and Phonology Seminar — Guest Lecture</h3>
-      <p><strong>When:</strong> 8 May 2024 — <strong>Where:</strong> Universität Mannheim (DE)</p>
-      <p>Guest lecture: “Intrinsic Vowel Pitch in Children: The acoustic analysis of a child speech corpus”. Undergraduate level.</p>
-    </div>
-  </article>
-
-  <!-- 8 May 2024 — Quantitative Research -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/methods.png" alt="Quantitative research" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>Quantitative Research Seminar — Guest Lecture</h3>
-      <p><strong>When:</strong> 8 May 2024 — <strong>Where:</strong> Universität Mannheim (DE)</p>
-      <p>Guest lecture in inferential statistics. Undergraduate level.</p>
-    </div>
-  </article>
-
-  <!-- 7 May 2024 — Psycholinguistics -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/psycholinguistics.png" alt="Psycholinguistics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>Psycholinguistics Research Colloquium — Guest Lecture</h3>
-      <p><strong>When:</strong> 7 May 2024 — <strong>Where:</strong> Universität Mannheim (DE)</p>
-      <p>Guest lecture: “Methodological challenges in child speech production research”. Graduate level.</p>
-    </div>
-  </article>
-
-  <!-- 2021 — ULB English Linguistics I -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/linguistics1.png" alt="English Linguistics I" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>English Linguistics I</h3>
-      <p><strong>When:</strong> Sept–Oct 2021 — <strong>Where:</strong> Université Libre de Bruxelles (BE)</p>
-      <p>Design of online exercises in English linguistics. Undergraduate level.</p>
-    </div>
-  </article>
-
-  <!-- 2021 — ULB English Linguistics II -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/linguistics2.png" alt="English Linguistics II" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>English Linguistics II</h3>
-      <p><strong>When:</strong> Sept–Oct 2021 — <strong>Where:</strong> Université Libre de Bruxelles (BE)</p>
-      <p>Design of online exercises in English linguistics. Undergraduate level.</p>
-    </div>
-  </article>
-
-  <!-- 2021 — General Linguistics -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/general_linguistics.png" alt="General Linguistics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>General Linguistics: Theoretical Questions</h3>
-      <p><strong>When:</strong> Spring 2021 — <strong>Where:</strong> Université Libre de Bruxelles (BE)</p>
-      <p>Student-assistant for Phonetics, Phonology, Morphology and Syntax. Undergraduate level.</p>
-    </div>
-  </article>
-
-  <!-- 2019–2020 -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/general_linguistics.png" alt="General Linguistics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>General Linguistics: Concepts and Methods</h3>
-      <p><strong>When:</strong> Fall 2019 & 2020 — <strong>Where:</strong> Université Libre de Bruxelles (BE)</p>
-      <p>Student-assistant: Phonetics, Phonology, Morphology and Syntax. Undergraduate level.</p>
-    </div>
-  </article>
-
+  <!-- Additional guest lectures from CV -->
+  <!-- You can add similar blocks for Mannheim, ULB, etc., following the same pattern -->
 </section>
+
 
 
 <!-- ===== ADDITIONAL RESOURCES -->
@@ -192,9 +115,8 @@ header:
   <h2>Useful links</h2>
   <p>Selected resources for students (tools, tutorials, corpora):</p>
   <ul>
-    <li><a href="https://www.fon.hum.uva.nl/praat/">Praat tutorials</a></li>
-    <li><a href="/assets/reading-lists/quantitative-phonetics.md">Quantitative phonetics — reading list</a></li>
-    <li><a href="/assets/links/corpora.md">Corpora & datasets</a></li>
+    <li><a href="https://www.fon.hum.uva.nl/praat/">Praat</a></li>
+    <li><a href="https://jgenette.shinyapps.io/colouringtheillustrationapp/">IPA chart designer</a></li>
   </ul>
 </section>
 
@@ -227,5 +149,16 @@ header:
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+/* Full-width banner at top */
+.full-banner {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 15px;
+}
+
 </style>
 </style>

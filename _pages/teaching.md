@@ -28,73 +28,164 @@ header:
 <section>
   <h2>Courses taught</h2>
 
-<!-- Course 1 -->
-<section class="course-block">
+  <!-- 2026 -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/phonetics_and_phonology.png" alt="Phonetics and Phonology" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>Phonetics and Phonology</h3>
+      <p><strong>When:</strong> Spring 2026 — <strong>Where:</strong> KU Leuven (BE)</p>
+      <p>University lecturer. Graduate level. Course covering articulatory/acoustic phonetics and core phonological theory.</p>
+    </div>
+  </article>
 
-  <!-- FULL-WIDTH COURSE BANNER -->
-  <img src="/assets/images/teaching/phonetics_and_phonology.png"
-       alt="Phonetics and Phonology banner"
-       class="course-banner">
+  <!-- Fall 2025 — Orthography -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/orthography.png" alt="Orthography" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>Orthographe lexicale et grammaticale</h3>
+      <p><strong>When:</strong> Fall 2025 — <strong>Where:</strong> Université de Mons (BE)</p>
+      <p>University lecturer. Undergraduate level. Teaching French lexical and grammatical orthography.</p>
+    </div>
+  </article>
 
-  <!-- COURSE CONTENT -->
-  <div class="course-content">
-    <p><strong>When:</strong> Spring 2026 — <strong>Where:</strong> KU Leuven</p>
+  <!-- Fall 2025 — Linguistique générale -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/linguistics_general.png" alt="General Linguistics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>Linguistique générale</h3>
+      <p><strong>When:</strong> Fall 2025 — <strong>Where:</strong> Université de Mons (BE)</p>
+      <p>University lecturer. Undergraduate level. Course covering foundations of general linguistics.</p>
+    </div>
+  </article>
 
-    <p>This MA-level course provides an integrated introduction to articulatory and acoustic
-    phonetics and to core issues in phonological theory. Students learn to analyse speech
-    acoustically, interpret spectrograms, and connect empirical observations to theoretical
-    questions in phonology.</p>
+  <!-- 23 October 2025 -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/audiology.png" alt="Audiology Module" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>Audiology, Acoustic Phonetics and Deafness — Guest Lecture</h3>
+      <p><strong>When:</strong> 23 October 2025 — <strong>Where:</strong> Uniwersytet Wrocławski (PL)</p>
+      <p>Guest lecture: “Corpora en wetenschappelijk onderzoek in de taalkunde” [Corpora and scientific research in linguistics].</p>
+    </div>
+  </article>
 
-    <p>
-      <a href="/assets/syllabus/phonetics_phonology_syllabus.pdf">Syllabus (PDF)</a>
-      ·
-      <a href="/assets/assignments/phonetics_phonology_lab1.zip">Lab materials</a>
-    </p>
-  </div>
+  <!-- 11 September 2025 -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/audiology.png" alt="Audiology Module" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>Audiology, Acoustic Phonetics and Deafness — Guest Lecture</h3>
+      <p><strong>When:</strong> 11 September 2025 — <strong>Where:</strong> City St George’s, University of London (UK)</p>
+      <p>Guest lecture: “The developmental aspect(s) of Intrinsic Vowel Pitch”.</p>
+    </div>
+  </article>
+
+  <!-- 2024–2026 — BA theses -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/ba_thesis.png" alt="BA thesis" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>Bachelorscriptie (BA thesis supervision)</h3>
+      <p><strong>When:</strong> 2024–2026 — <strong>Where:</strong> Universiteit Antwerpen (BE)</p>
+      <p>Assessor for BA theses in Applied Linguistics. Undergraduate level.</p>
+    </div>
+  </article>
+
+  <!-- 8 May 2024 — Phonetics & Phonology Seminar -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/child-speech.png" alt="Child Speech" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>Phonetics and Phonology Seminar — Guest Lecture</h3>
+      <p><strong>When:</strong> 8 May 2024 — <strong>Where:</strong> Universität Mannheim (DE)</p>
+      <p>Guest lecture: “Intrinsic Vowel Pitch in Children: The acoustic analysis of a child speech corpus”. Undergraduate level.</p>
+    </div>
+  </article>
+
+  <!-- 8 May 2024 — Quantitative Research -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/methods.png" alt="Quantitative research" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>Quantitative Research Seminar — Guest Lecture</h3>
+      <p><strong>When:</strong> 8 May 2024 — <strong>Where:</strong> Universität Mannheim (DE)</p>
+      <p>Guest lecture in inferential statistics. Undergraduate level.</p>
+    </div>
+  </article>
+
+  <!-- 7 May 2024 — Psycholinguistics -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/psycholinguistics.png" alt="Psycholinguistics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>Psycholinguistics Research Colloquium — Guest Lecture</h3>
+      <p><strong>When:</strong> 7 May 2024 — <strong>Where:</strong> Universität Mannheim (DE)</p>
+      <p>Guest lecture: “Methodological challenges in child speech production research”. Graduate level.</p>
+    </div>
+  </article>
+
+  <!-- 2021 — ULB English Linguistics I -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/linguistics1.png" alt="English Linguistics I" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>English Linguistics I</h3>
+      <p><strong>When:</strong> Sept–Oct 2021 — <strong>Where:</strong> Université Libre de Bruxelles (BE)</p>
+      <p>Design of online exercises in English linguistics. Undergraduate level.</p>
+    </div>
+  </article>
+
+  <!-- 2021 — ULB English Linguistics II -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/linguistics2.png" alt="English Linguistics II" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>English Linguistics II</h3>
+      <p><strong>When:</strong> Sept–Oct 2021 — <strong>Where:</strong> Université Libre de Bruxelles (BE)</p>
+      <p>Design of online exercises in English linguistics. Undergraduate level.</p>
+    </div>
+  </article>
+
+  <!-- 2021 — General Linguistics -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/general_linguistics.png" alt="General Linguistics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>General Linguistics: Theoretical Questions</h3>
+      <p><strong>When:</strong> Spring 2021 — <strong>Where:</strong> Université Libre de Bruxelles (BE)</p>
+      <p>Student-assistant for Phonetics, Phonology, Morphology and Syntax. Undergraduate level.</p>
+    </div>
+  </article>
+
+  <!-- 2019–2020 -->
+  <article class="course">
+    <div class="course-media">
+      <img src="/assets/images/teaching/general_linguistics.png" alt="General Linguistics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
+    </div>
+    <div class="course-content">
+      <h3>General Linguistics: Concepts and Methods</h3>
+      <p><strong>When:</strong> Fall 2019 & 2020 — <strong>Where:</strong> Université Libre de Bruxelles (BE)</p>
+      <p>Student-assistant: Phonetics, Phonology, Morphology and Syntax. Undergraduate level.</p>
+    </div>
+  </article>
 
 </section>
 
-
-  <!-- Course 2 -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/child-speech.png" alt="Child speech acoustics" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>Child Speech Acoustics (Graduate seminar)</h3>
-      <p><strong>When:</strong> Spring 20XX — <strong>Where:</strong> Universiteit Antwerpen</p>
-      <p>Advanced seminar centered on acoustic properties of babbling and early lexical production; includes reading of recent papers, replication work, and student projects analyzing longitudinal corpora.</p>
-      <p><a href="/assets/syllabus/child-speech-syllabus.pdf">Syllabus (PDF)</a> · <a href="/assets/reading-lists/child-speech.md">Reading list</a></p>
-    </div>
-  </article>
-
-  <!-- Course 3 -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/methods.png" alt="Methods in speech sciences" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>Methods in Speech Sciences</h3>
-      <p><strong>When:</strong> Occasional — <strong>Where:</strong> Guest lectures / workshops</p>
-      <p>Hands-on workshops: Praat scripting, spectrogram analysis, annotation (ELAN) and reproducible pipelines (R / Python). Ideal for students preparing MSc projects or doctoral research.</p>
-      <p><a href="/assets/workshops/methods-handout.pdf">Workshop handout</a></p>
-    </div>
-  </article>
-
-  <!-- Course 4 (example dialectology seminar) -->
-  <article class="course">
-    <div class="course-media">
-      <img src="/assets/images/teaching/dialectology.png" alt="Dialectology" style="width:220px; height:140px; object-fit:cover; border-radius:6px;">
-    </div>
-    <div class="course-content">
-      <h3>Dialectology and Variation</h3>
-      <p><strong>When:</strong> Spring 20XX — <strong>Where:</strong> KU Leuven (guest)</p>
-      <p>Seminar on methods in dialectology: fieldwork design, sociolinguistic questionnaires, and acoustic measures of regional variation.</p>
-      <p><a href="/assets/syllabus/dialectology-syllabus.pdf">Syllabus (PDF)</a></p>
-    </div>
-  </article>
-
-</section>
 
 <!-- ===== ADDITIONAL RESOURCES -->
 <section>

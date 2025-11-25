@@ -1,7 +1,6 @@
 ---
 permalink: /teaching/
 title: "Teaching"
-excerpt: "Teaching"
 layout: single
 sidebar: false
 author_profile: false
@@ -19,10 +18,6 @@ toc: false
   <p>In my courses, students can expect to:</p>
   <ul>
     <li>Get hands-on experience with acoustic analysis and speech data</li>
-    <li>Learn quantitative methods used in laboratory phonology and speech sciences</li>
-    <li>Develop skills in annotation, signal processing and statistical analysis</li>
-    <li>Practice presenting and writing clear, evidence-based arguments</li>
-    <li>Engage with both theoretical and applied topics in phonetics and language acquisition</li>
   </ul>
 </section>
 

@@ -6,7 +6,7 @@ sidebar: false
 author_profile: false
 toc: false
 header: 
-  image: /assets/images/teaching/teachning_banner.png
+  image: "/assets/images/teaching/teachning_banner.png"
 ---
 <div class="page-banner-container">
   <!-- Full-width top banner -->

@@ -7,7 +7,8 @@ sidebar: false
 author_profile: false
 toc: false
 header:
-  overlay_image: /assets/images/teaching/teachning_banner.png
+  overlay_image: "/assets/images/teaching/phonetics_and_phonology.png"
+  show_overlay_title: false
 ---
 
 <!-- ===== OBJECTIVES -->

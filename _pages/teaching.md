@@ -160,5 +160,15 @@ toc: false
   margin-bottom: 15px;
 }
 
+.top-banner img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0; /* flush with menu */
+  margin-bottom: 20px;
+}
+
+
 </style>
 </style>

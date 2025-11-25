@@ -1,18 +1,12 @@
 ---
 permalink: /teaching/
-title: "Teaching"
 layout: single
 sidebar: false
 author_profile: false
 toc: false
 header: 
-  image: "/assets/images/teaching/teachning_banner.png"
+  image: /assets/images/teaching/teachning_banner.png
 ---
-<div class="page-banner-container">
-  <!-- Full-width top banner -->
-  <img src="/assets/images/teaching/teachning_banner.png" alt="Teaching banner" class="top-banner img">
-
-</div>
 <!-- ===== OBJECTIVES -->
 <section>
   <h2>Objectives in the Classroom</h2>

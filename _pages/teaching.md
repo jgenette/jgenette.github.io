@@ -10,7 +10,7 @@ toc: false
 ---
 <div class="page-banner-container">
   <!-- Full-width top banner -->
-  <img src="/assets/images/teaching/teachning_banner.png" alt="Teaching banner" class="full-banner">
+  <img src="/assets/images/teaching/teachning_banner.png" alt="Teaching banner" class="top-banner img">
 
 </div>
 <!-- ===== OBJECTIVES -->

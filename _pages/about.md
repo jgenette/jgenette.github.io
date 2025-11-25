@@ -2,6 +2,8 @@
 permalink: /
 excerpt: "About me"
 author_profile: true
+header: 
+  image: home_banner.png
 ---
 
 <!-- =============================== -->
@@ -10,10 +12,8 @@ author_profile: true
 
 <section style="padding: 0px 0;">
 <p>
-Welcome! I am a PhD student at the CLiPS research center under the supervision of Prof. Steven Gillis and Prof. Jo Verhoeven. 
-My research focuses on the acoustic characteristics of babbling and early word production in the speech of typically developing children and children with hearing impairment. 
-My approach is mainly quantitative and grounded in laboratory phonology. 
-In addition to child speech phonetics, I also work on methodological questions in speech sciences and on dialectology.
+Welcome! I am a researcher and lecturer in phonetics and linguistics. My approach is mainly quantitative and grounded in laboratory phonology. My main resarch topic is the use of secondary cues (i.e. phonetic details) and how they contribute to phonological contrasts. I investigate those phonetic details through language acquisition and language variation. I work mainly on Dutch, French, Italian and Greek. 
+
 </p>
 </section>
 

@@ -94,7 +94,7 @@ In addition to child speech phonetics, I also work on methodological questions i
 <!-- EDUCATION SECTION -->
 <!-- =============================== -->
 
-<section style="background:#f7f7f7; padding:25px; border-radius:8px; margin-top:0px;">
+<section style="background:#ffffff; padding:25px; border-radius:8px; margin-top:0px;">
 <h2>Education</h2>
 
 <div class="mm-cards">

@@ -1,0 +1,36 @@
+<div class="research-card">
+  {% if post.image %}
+  <div class="research-card-image">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+  </div>
+  {% endif %}
+
+  <div class="research-card-content">
+    <h3>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
+
+    <p class="research-excerpt">
+      {{ post.excerpt | strip_html | truncate: 140 }}
+    </p>
+
+    {% if post.collaborators %}
+    <p class="research-collaborators">
+      <strong>Collaborators:</strong>
+      {% for c in post.collaborators %}
+        {% if c.url %}
+          <a href="{{ c.url }}">{{ c.name }}</a>{% if forloop.last == false %}, {% endif %}
+        {% else %}
+          {{ c.name }}{% if forloop.last == false %}, {% endif %}
+        {% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% if post.status %}
+    <p class="research-status">
+      <em>{{ post.status }} ({{ post.years }})</em>
+    </p>
+    {% endif %}
+  </div>
+</div>

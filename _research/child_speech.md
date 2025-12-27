@@ -1,11 +1,22 @@
 ---
-title: "The acquisition of phonological categories in early speech production"
-layout: single-portfolio
-excerpt: "<img src='/images/research/hearing.png' alt=''>"
-collection: research
-order_number: 30
-header: 
-  og_image: "research/hearing.png"
+title: "Acoustic properties of early babbling"
+themes:
+  - child_speech
+  - hearing_impairment
+order_number: 1
+
+collaborators:
+  - name: Maria Rossi
+    affiliation: University of Milan
+    url: https://example.com
+  - name: John Smith
+    affiliation: University of Oxford
+
+image: research/babbling.jpg
+status: Ongoing
+years: 2023–present
 ---
 
-🚧 Page under construction.
+This project investigates the acoustic characteristics of canonical and non-canonical babbling in typically developing children and children with hearing impairment.
+
+We focus on temporal and spectral measures, using a laboratory phonology framework.

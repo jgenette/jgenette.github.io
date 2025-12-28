@@ -156,6 +156,21 @@ and methodological issues in speech sciences.
       </h3>
 
       <p class="research-dates">📅 2025–present</p>
+      
+      <div class="research-summary">
+        <p>
+          This project investigates how infants learn speech sound categories
+          from Infant-Directed Speech (IDS), focusing on the role of secondary
+          acoustic cues that have been largely overlooked in previous research.
+        </p>
+
+        <p>
+          Combining large-scale corpus analyses of parent–infant interactions
+          with perception experiments, the project examines cue-weighting in
+          caregiver input and its relationship with infant production and
+          categorization.
+        </p>
+      </div>
 
       <p class="research-tags">
         🏷️ Acoustics · Language acquisition · Cue-weighting · Dutch
@@ -172,24 +187,8 @@ and methodological issues in speech sciences.
         Research Foundation – Flanders (FWO) [1235526N]
       </p>
 
-      <span class="research-toggle" onclick="toggleSummary(this)">
-        ▶ Show summary
-      </span>
 
-      <div class="research-summary">
-        <p>
-          This project investigates how infants learn speech sound categories
-          from Infant-Directed Speech (IDS), focusing on the role of secondary
-          acoustic cues that have been largely overlooked in previous research.
-        </p>
 
-        <p>
-          Combining large-scale corpus analyses of parent–infant interactions
-          with perception experiments, the project examines cue-weighting in
-          caregiver input and its relationship with infant production and
-          categorization.
-        </p>
-      </div>
 
     </div>
 
@@ -208,11 +207,31 @@ and methodological issues in speech sciences.
 
       <h3>
         <a href="/research/phonetic-methods/">
-          Methodological issues in child speech phonetics
+          In all languages of the world high vowels (such as /i/ in ‘key’) and /u/
+in ‘who’) are pronounced with a higher pitch than low vowels (such as
+/a/ in ‘far’). This phenomenon is known as ‘intrinsic vowel pitch’. In
+the past, this phenomenon has been explained in two ways.
+On the one hand, intrinsic vowel pitch has to do with the operation of
+the speech organs: during the articulation of /i/ and /u/ the tongue is
+lifted far forward in the mouth. This tension pulls on the larynx and
+this stretches the vocal folds so that a higher pitch is obtained. In
+vowels like /a/ the vocal folds are not stretched to the same degree
+so that a lower tone is heard.
+
+On the other hand, this phenomenon supports the intentions of
+speakers who aim to make vowels sound as different as possible
+from each other in order to speak clearly.
+
+Scientists do not agree on which explanation is correct, but they do
+agree on the following: if the first explanation is correct then intrinsic
+vowel pitch is expected to occur in babble of deaf babies.
+Remarkably, this has never been systematically investigated in a
+large-scale study and this is precisely what this project aims to
+investigate.
         </a>
       </h3>
 
-      <p class="research-dates">📅 2021–2023</p>
+      <p class="research-dates">📅 2021–2025</p>
 
       <p class="research-tags">
         🏷️ Phonetics · Methods · Laboratory phonology

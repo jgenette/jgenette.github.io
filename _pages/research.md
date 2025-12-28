@@ -121,32 +121,43 @@ header:
 
     <h3>
       <a href="/research/early-babbling/">
-        Acoustic properties of early babbling
+        Acoustic cue-weighting in Infant-Directed Speech
       </a>
     </h3>
 
-    <p class="research-dates">📅 2024–present</p>
+    <p class="research-dates">📅 2025–present</p>
 
     <p>
-      Quantitative analysis of spectral and temporal characteristics of
-      canonical and non-canonical babbling in typically developing children
-      and children with hearing impairment.
+      The proposed research project investigates how infants learn speech sound categories from the
+linguistic input they receive: Infant-Directed Speech (IDS). Previous research has shown that speech
+sounds are best distinguished by a combination of primary, essential cues and secondary, yet
+informative, cues. However, research on IDS and early language acquisition has largely overlooked
+the role of these secondary cues. Therefore, our understanding of IDS and its role in language
+acquisition remains overly simplified. To address this lacuna, the present project aims to develop a
+more comprehensive understanding of how speech sounds are phonetically contrasted through
+multiple cues in IDS, whether this facilitates speech sound categorization, and how this affects
+language acquisition.
+
+For this purpose, we will combine large-scale corpus studies of spontaneous speech production with
+perception experiments. Specifically, we will investigate (1) whether parents exaggerate a single
+fundamental cue or a combination of cues to help children learn phonological categories through the
+acoustic analysis of a corpus of parent-infant interactions, (2) we will test in the same corpus
+whether variations in caregivers' cue-weighting can (partially) explain individual differences in the
+infants' own cue-weighting in production and (3) we will examine how IDS cue-weighting shapes
+phoneme categorization, bridging the caregiver input and infant output by means of targeted
+perception experiments.
     </p>
 
     <p class="research-tags">
-      🏷️ acoustics · babbling · child speech · hearing impairment
+      🏷️ Acoustics · Language Acquisition · Acoustic Cue-Weighting · Dutch
     </p>
 
     <p class="research-meta">
-      👥 <strong>Collaborators:</strong> Maria Rossi (University of Milan), John Smith (Oxford)
+      👥 <strong>Collaborators:</strong> Sarah Bernolet (University of Antwerp, BE), Jo Verhoeven (City St George's, University of London, UK)
     </p>
 
     <p class="research-meta">
-      💰 <strong>Funding:</strong> Italian Ministry of Education (PRIN 2022)
-    </p>
-
-    <p class="research-meta">
-      📚 <strong>Published in:</strong> <em>Journal of Phonetics</em> (2024)
+      💰 <strong>Funding:</strong> The Research Foundation – Flanders (FWO) [1235526N]
     </p>
 
   </div>

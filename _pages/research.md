@@ -6,7 +6,6 @@ author_profile: true
 header:
   og_image: research/ecdf.png
 ---
-
 <!-- ===================== -->
 <!-- Inline styles        -->
 <!-- ===================== -->
@@ -21,7 +20,8 @@ header:
 .research-card {
   background-color: #f5f5f5;
   border: 1px solid #e0e0e0;
-  padding: 1rem;
+  border-radius: 12px;
+  padding: 1.25rem;
 }
 
 .research-card-image {
@@ -31,6 +31,7 @@ header:
 .research-card-image img {
   width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 .research-card h3 {
@@ -41,26 +42,25 @@ header:
 .research-dates {
   font-size: 0.85rem;
   color: #666;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 .research-tags {
   font-size: 0.75rem;
-  margin: 0.5rem 0;
+  margin: 0.6rem 0;
+  color: #555;
 }
 
 .research-tag {
   display: inline-block;
-  border: 1px solid #bbb;
-  padding: 0.1rem 0.4rem;
-  margin: 0 0.3rem 0.3rem 0;
-  background: #fafafa;
+  margin-right: 0.6rem;
+  color: #555;
 }
 
 .research-meta {
   font-size: 0.85rem;
   color: #444;
-  margin: 0.25rem 0;
+  margin: 0.3rem 0;
 }
 
 .research-filter {
@@ -110,10 +110,7 @@ header:
 
 <div id="research-cards" class="research-grid">
 
-  <!-- ===================== -->
-  <!-- PROJECT CARD         -->
-  <!-- ===================== -->
-
+  <!-- PROJECT CARD -->
   <div class="research-card"
        data-tags="acoustics babbling child speech hearing impairment">
 
@@ -128,9 +125,7 @@ header:
       </a>
     </h3>
 
-    <p class="research-dates">
-      📅 2024–present
-    </p>
+    <p class="research-dates">📅 2024–present</p>
 
     <p>
       Quantitative analysis of spectral and temporal characteristics of
@@ -139,11 +134,7 @@ header:
     </p>
 
     <p class="research-tags">
-      🏷️
-      <span class="research-tag">acoustics</span>
-      <span class="research-tag">babbling</span>
-      <span class="research-tag">child speech</span>
-      <span class="research-tag">hearing impairment</span>
+      🏷️ acoustics · babbling · child speech · hearing impairment
     </p>
 
     <p class="research-meta">
@@ -160,10 +151,7 @@ header:
 
   </div>
 
-  <!-- ===================== -->
-  <!-- PROJECT CARD         -->
-  <!-- ===================== -->
-
+  <!-- PROJECT CARD -->
   <div class="research-card"
        data-tags="phonetics methods laboratory phonology">
 
@@ -178,9 +166,7 @@ header:
       </a>
     </h3>
 
-    <p class="research-dates">
-      📅 2021–2023
-    </p>
+    <p class="research-dates">📅 2021–2023</p>
 
     <p>
       Examination of methodological choices in acoustic analysis,
@@ -189,10 +175,7 @@ header:
     </p>
 
     <p class="research-tags">
-      🏷️
-      <span class="research-tag">phonetics</span>
-      <span class="research-tag">methods</span>
-      <span class="research-tag">laboratory phonology</span>
+      🏷️ phonetics · methods · laboratory phonology
     </p>
 
     <p class="research-meta">
@@ -209,10 +192,7 @@ header:
 
   </div>
 
-  <!-- ===================== -->
-  <!-- PROJECT CARD         -->
-  <!-- ===================== -->
-
+  <!-- PROJECT CARD -->
   <div class="research-card"
        data-tags="dialectology phonetics italian dialects">
 
@@ -227,9 +207,7 @@ header:
       </a>
     </h3>
 
-    <p class="research-dates">
-      📅 2019–2022
-    </p>
+    <p class="research-dates">📅 2019–2022</p>
 
     <p>
       Phonetic documentation of segmental and prosodic variation in
@@ -237,10 +215,7 @@ header:
     </p>
 
     <p class="research-tags">
-      🏷️
-      <span class="research-tag">dialectology</span>
-      <span class="research-tag">phonetics</span>
-      <span class="research-tag">Italian dialects</span>
+      🏷️ dialectology · phonetics · Italian dialects
     </p>
 
     <p class="research-meta">
